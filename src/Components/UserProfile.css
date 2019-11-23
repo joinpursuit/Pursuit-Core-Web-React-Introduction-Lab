@@ -1,0 +1,50 @@
+.container{
+    display: grid;
+    grid-template-columns: 70% 30%;
+  
+}
+
+img{
+    float: left;
+    width: 100px;
+}
+
+.profile{ 
+    border: 1px solid black;
+    width: 90%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profile-text{
+    margin-left: 20px;
+}
+
+.posts{
+    border: 1px solid black;
+    width: 90%;
+    height: 70%;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.post{
+border: 1px solid black;
+margin: 15px 15px 15px 15px;
+text-align: center;
+}
+
+.contact{
+    margin: 15px 15px 15px 15px;
+    border: 1px solid black;
+    text-align: center;
+
+}
+.contacts{
+    border: 1px solid black;
+    width: 85%;
+    text-align: center;
+}
