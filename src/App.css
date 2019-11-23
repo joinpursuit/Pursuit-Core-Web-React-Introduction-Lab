@@ -17,6 +17,18 @@
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.nav {
+  background-color: #09d3ac;
+}
+
+.nav a {
+  color: rgb(124, 7, 7);
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.nav li {
+  list-style: none;
 }
