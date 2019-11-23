@@ -1,0 +1,14 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    border: 1px solid black;
+    width: 65%;
+    margin-left:20px; 
+}
+
+.post{
+    margin-top: 15px;
+    border: 1px solid black;
+    width: 80%
+}

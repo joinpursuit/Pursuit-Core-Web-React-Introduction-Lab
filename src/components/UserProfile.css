@@ -1,0 +1,11 @@
+.userProfile{
+    display: flex;
+    margin-left:20px; 
+    border: 1px solid black;
+    width: 65%;
+}
+
+img{
+    width: 150px;
+    padding-right: 15px;
+}
