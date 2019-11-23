@@ -1,11 +1,17 @@
 import React from 'react';
-import feedPost from './feedPost';
+import FeedPost from './feedPost';
 import './feedPost.css';
 
-class Feed extands React.Component{
-    render () {
+class Feed extends React.Component {
+    render() {
+        return (
         <div>
-            
+            <FeedPost />
+            <FeedPost />
+            <FeedPost />
         </div>
+        )
     }
 }
+
+export default Feed;
