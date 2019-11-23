@@ -1,0 +1,7 @@
+.post {
+  border: 1px solid black;
+  margin: 15px;
+}
+.post-title {
+  font-weight: 900;
+}

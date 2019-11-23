@@ -1,0 +1,15 @@
+.posts {
+  border: 1px solid black;
+  width: 60%;
+  text-align: center;
+  margin: 20px;
+}
+.title {
+}
+
+@media only screen and (max-width: 1200px) {
+  .posts {
+    width: 95%;
+    margin: 20px;
+  }
+}

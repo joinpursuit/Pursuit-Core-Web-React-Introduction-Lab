@@ -1,0 +1,36 @@
+.user-card {
+  border: 1px solid black;
+  height: 175px;
+  width: 60%;
+  margin: 20px;
+}
+.user-img {
+  width: 100px;
+  float: left;
+  margin: 10px;
+}
+.user-name {
+  font-weight: 900;
+  font-size: 1.3rem;
+}
+.user-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.user-description {
+  font-size: 0.9rem;
+}
+
+.user-name,
+.user-title,
+.user-description {
+  width: 100%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1200px) {
+  .user-card {
+    width: 95%;
+    margin: 20px;
+  }
+}

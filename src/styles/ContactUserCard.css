@@ -1,0 +1,31 @@
+.contact-card {
+  border: 1px solid black;
+  display: flex;
+  margin: 10px;
+}
+.contact-img {
+  width: 145px;
+}
+.contact-name {
+  font-weight: 900;
+  font-size: 1.3rem;
+}
+.contact-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.contact-description {
+  font-size: 0.9rem;
+  text-align: center;
+}
+.contact-name,
+.contact-title,
+.contact-description {
+  width: 100%;
+}
+/* @media only screen and (max-width: 500px) {
+  .contacts-card {
+    display: flex;
+    flex-direction: row;
+  }
+} */

@@ -1,0 +1,13 @@
+.contacts {
+  border: 1px solid black;
+  width: 35%;
+  text-align: center;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .contacts {
+    width: 95%;
+    margin: 20px;
+  }
+}
