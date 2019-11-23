@@ -1,0 +1,33 @@
+.userProfile {
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-bottom: 5px;
+}
+
+.userProfile img {
+    width: 10%;
+    height: 10%;
+}
+
+.userProfile h4 {
+    margin: 0
+}
+
+.userProfile h6 {
+    margin: 0;
+}
+
+.userProfile p {
+    margin: 1px;
+    font-size: 10px;
+}
+
+.info {
+    margin-top: auto;
+    margin-bottom: auto;
+}

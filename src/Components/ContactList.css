@@ -1,0 +1,22 @@
+.contactList {
+    border: 1px solid black;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    text-align: center;
+}
+
+.contactList div {
+    margin: 5px;
+    height: 20%;
+}
+
+.contactList div img {
+    height: 100%;
+    width: 20%;
+}
+
+.contactList div div {
+    margin-top: auto;
+    margin-bottom: auto;
+}

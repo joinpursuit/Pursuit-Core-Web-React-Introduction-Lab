@@ -1,0 +1,8 @@
+.feed {
+    border: 1px solid black;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    text-align: center;
+}
