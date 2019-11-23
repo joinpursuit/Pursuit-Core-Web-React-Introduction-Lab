@@ -1,0 +1,12 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border: 1px solid black;
+  height: 500px;
+  /* width: 60vw; */
+  align-items: center;
+  justify-content: center;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}

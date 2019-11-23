@@ -1,10 +1,18 @@
 .App {
   text-align: center;
+  display: grid;
+  /* grid-template-areas:
+    "navbar navbar navbar navbar navbar navbar navbar navbar"
+    "contacts"; */
+  grid-template-columns: 60% 38%;
 }
-
-.App-logo {
-  height: 40vmin;
+/* 
+.userProfile {
 }
+.contacts {
+  grid-row-start: 2;
+  grid-column-end: 3;
+} */
 
 .App-header {
   background-color: #282c34;
@@ -19,11 +27,4 @@
 
 .App-link {
   color: #09d3ac;
-}
-.navbar {
-  display: flex;
-  background-color: #acd7e5;
-  height: 40px;
-  align-items: center;
-  justify-content: flex-end;
 }
