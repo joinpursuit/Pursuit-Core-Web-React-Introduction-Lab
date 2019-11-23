@@ -1,0 +1,13 @@
+.NavBar {
+    background-color: lightblue;
+    display:flex;
+    flex-wrap: wrap;
+    padding:20px;
+}
+
+button{
+    margin: 10px;
+    position: absolute;
+    top:0;
+    right:0;
+}
