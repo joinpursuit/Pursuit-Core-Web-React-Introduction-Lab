@@ -29,6 +29,17 @@
   font-size: 14px;
 }
 
-.nav li {
+li {
   list-style: none;
 }
+
+.user {
+  border: 1px solid black;
+}
+.contacts {
+border: 1px solid black;
+}
+
+.contacts div{
+  border: 1px solid black;
+  }

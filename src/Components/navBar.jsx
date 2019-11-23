@@ -5,9 +5,9 @@ class NavBar extends React.Component {
         return (
             <div class='navBar'>
                 <ul class='nav'>
-                    <li><a href="#">Buckets</a></li>
-                    <li><a href="#">Things</a></li>
-                    <li><a href="#">Chop</a></li>
+                    <li><a href="#">What is Pursuit?</a></li>
+                    <li><a href="#">Create an Account</a></li>
+                    <li><a href="#">Sign In</a></li>
                 </ul>
             </div>
         )
