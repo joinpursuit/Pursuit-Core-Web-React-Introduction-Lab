@@ -5,14 +5,8 @@
     "navbar navbar navbar navbar navbar navbar navbar navbar"
     "contacts"; */
   grid-template-columns: 60% 38%;
+  grid-template-rows: 60px;
 }
-/* 
-.userProfile {
-}
-.contacts {
-  grid-row-start: 2;
-  grid-column-end: 3;
-} */
 
 .App-header {
   background-color: #282c34;
