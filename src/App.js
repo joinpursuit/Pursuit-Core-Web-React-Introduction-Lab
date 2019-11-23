@@ -10,10 +10,17 @@ import Posts from './Components/posts';
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <Profiles />
-      <Contacts />
+    
+  <div class="item1"><NavBar /></div>
+  <div class="item2"><Profiles /></div>
+  <div class="item3"><Contacts /></div>  
+  <div class="item4"><Posts /></div>
+      
+      {/* <h2>Posts</h2>
+      
       <Posts />
+      <Posts />
+      <Posts /> */}
       </div>
   );
 }
