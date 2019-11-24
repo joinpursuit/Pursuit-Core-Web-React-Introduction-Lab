@@ -3,7 +3,7 @@ import React from 'react'
 class NavBar extends React.Component {
     render() {
         return (
-            <div class='navBar'>
+            <div>
                 <ul class='nav'>
                     <li><a href="#">What is Pursuit?</a></li>
                     <li><a href="#">Create an Account</a></li>

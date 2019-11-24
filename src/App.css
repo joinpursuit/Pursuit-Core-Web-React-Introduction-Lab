@@ -2,14 +2,6 @@
   height: 40vmin;
 }
 
-.nav a {
-  color: rgb(124, 7, 7);
-  text-decoration: none;
-  letter-spacing: 3px;
-  font-weight: bold;
-  font-size: 14px;
-}
-
 li {
   list-style: none;
 }
@@ -23,22 +15,49 @@ li {
  display: grid;
   grid-template-areas:
     'nav nav nav nav nav nav'
-    'profile profile profile profile contacts contacts'
-    'posts posts posts posts contacts contacts';
-  grid-gap: 10px;
+    'profile profile profile contacts contacts contacts'
+    'posts posts posts contacts contacts contacts';
+  grid-gap: 5px;
   background-color: rgb(54, 18, 187);
-  padding: 10px;
+  padding: 5px;
 }
 
-.nav {
+.item1 {
+  /* display: inline-block; */
+  /* display: inline; */
+  /* float: left; */
+  /* position: relative; */
+  /* width: 100%; */
+  /* float: right; */
+  /* text-align: center; */
+  /* justify-content: space-around; */
+  /* align-items: center; */
+  /* min-height: 8vh; */
+}
+
+.item1 a {
+  color: rgb(124, 7, 7);
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.App > .item1 {
   background-color: #09d3ac;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   min-height: 8vh;
 }
 
-.App > div {
+.App > .item1 .nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    float: right;
+    justify-self: center;
+    /* justify-content: space-around; */
+    /* grid-column: 2 / span 5; */
+}
+
+.App > .item2, .item3, .item4  {
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
   /* padding: 20px 0; */
