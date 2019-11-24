@@ -6,16 +6,14 @@ import Posts from './Components/Posts.jsx';
 import Contacts from './Components/Contacts.jsx';
 
 function App() {
-  return (
-    <div className='AppDiv'>
-      <NavBar />
-      <div className='content'>  
-        <UserProfile />
-        <Contacts />
-        <Posts />
-      </div>
-    </div>
-  );
+    return (
+        <div className='AppDiv'>
+            <NavBar />
+                <UserProfile />
+                <Contacts />
+                <Posts />
+        </div>
+    );
 }
 
 export default App;

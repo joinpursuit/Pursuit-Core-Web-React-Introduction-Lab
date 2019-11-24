@@ -1,12 +1,13 @@
 import React from 'react';
+import './NavBar.css'
 
 class NavBar extends React.Component {
     render() {
         return (
             <div className='NavBar'>
-                <a>Sign in</a>
-                <a>Create an account</a>
-                <a>What is Pursuit?</a>
+                <button>What is Pursuit?</button>
+                <button>Create an account</button>
+                <button>Sign in</button>
             </div>
         )        
     }

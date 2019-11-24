@@ -1,5 +1,6 @@
 import React from 'react';
 import UserProfile from './UserProfile';
+import './Contacts.css';
 
 class Contacts extends React.Component {
     render() {
