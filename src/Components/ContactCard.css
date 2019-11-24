@@ -7,22 +7,24 @@
 
 .contact-card {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 10px;
+    grid-template-columns: 30% 50% 20%;
+    margin: 20px;
     border: 1px solid black;
 }
 
 .contact-card h2 {
     grid-column: 2/3;
     margin: 0px;
+    text-align: left;
 }
 
 .contact-card h3 {
     grid-column: 2/3;
     margin: 0px;
+    text-align: left;
 }
 
 .contact-card p {
     grid-column: 2/3;
-    margin: 0px;
+    text-align: left;
 }
