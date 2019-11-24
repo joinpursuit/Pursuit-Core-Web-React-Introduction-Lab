@@ -1,0 +1,21 @@
+#contacts{
+    display: grid;
+    grid-template-columns: 150px auto;
+    border: 1px solid black;
+    margin: 30px;
+    height:155px;
+}
+#contactProfileImg{
+    height:150px;
+    margin:2px;    
+}
+
+#profileInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+

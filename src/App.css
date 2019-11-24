@@ -1,22 +1,43 @@
 .App {
-  text-align: center;
+ display: grid;
+ grid-template-columns: repeat(2,1fr);
+} 
+
+
+#allTheButtons{
+  grid-template-rows: 1;
+  grid-column: 1/3;
 }
 
-.App-logo {
-  height: 40vmin;
+
+#contactsDiv{
+  grid-column-start: 2;
+  grid-row-start: 2;
+  grid-row-end: 5;
+  border: 1px solid black;
+  margin: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
+#userProfileDiv {
+  border: 1px solid black;
+  margin: 30px;
+}
+
+#postsDiv{
+  border: 1px solid black;
+  margin: 30px;
+}
+
+
+
+h1, h3,p, h2{
+  margin-block-end: 10px;
+  margin-block-start: 0px;
+}
+.title{
+  display:flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  align-content: center;
 
-.App-link {
-  color: #09d3ac;
 }

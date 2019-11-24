@@ -1,0 +1,12 @@
+#allTheButtons{
+    background-color: rgb(162, 219, 236);
+    display: flex;
+    justify-content: flex-end;
+    padding: 7px;
+  
+  }
+
+  .button{
+    display: flex;
+    margin: 10px;
+  }

@@ -1,0 +1,15 @@
+#posts{ 
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom:40px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#posts{
+    display: flex;
+    align-content: center;
+}
+
