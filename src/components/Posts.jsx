@@ -19,12 +19,14 @@ import './Posts.css';
 class Posts extends React.Component {
   render() {
     return (
-      <div className="comp-container">
+      <div className="comp-container" id="comp-posts">
         <div className="comp" id="posts">
           <h2>Posts</h2>
-          <Post />
-          <Post />
-          <Post />
+          <div id="all-posts">
+            <Post />
+            <Post />
+            <Post />
+          </div>
         </div>
       </div>
     )

@@ -1,0 +1,10 @@
+/*
+Joseph P. Pasaoa
+Single Contacts Card CSS | React Introduction Lab
+*/
+
+
+div#contacts div.profcard {
+  border: solid 1px #000;
+  margin: 16px 32px;
+}

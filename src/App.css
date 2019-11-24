@@ -77,10 +77,11 @@ body {
 }
 
 div#base-grid {
+  max-height: 100vh;
+
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 56px 1fr 2fr;
-  grid-area: 0px;
 }
 
 div.comp-container {
@@ -92,12 +93,15 @@ div.comp {
   height: auto;
 }
 
-h2 {
+h2 { /* COMPONENT HEADERS */
+  padding: 12px 12px 20px 12px;
+  border-bottom: solid 1px #333;
+
   font-weight: bold;
   font-size: 1.4em;
-  padding: 12px 12px 20px 12px;
 }
 
+/* PROFILE CARDS --begin */
 div.profcard {
   display: flex;
   flex-direction: row;
@@ -134,3 +138,4 @@ img.avatar {
   width: 130px;
   height: 130px;
 }
+/* PROFILE CARDS --end */

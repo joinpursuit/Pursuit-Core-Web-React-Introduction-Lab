@@ -22,11 +22,13 @@ class Contacts extends React.Component {
       <div className="comp-container" id="comp-contacts">
         <div className="comp" id="contacts">
           <h2>Contacts</h2>
-            <ContactUserCard />
-            <ContactUserCard />
-            <ContactUserCard />
-            <ContactUserCard />
-            <ContactUserCard />
+            <div id="all-contacts">
+              <ContactUserCard />
+              <ContactUserCard />
+              <ContactUserCard />
+              <ContactUserCard />
+              <ContactUserCard />
+            </div>
         </div>
       </div>
     )

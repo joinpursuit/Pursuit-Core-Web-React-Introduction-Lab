@@ -9,7 +9,7 @@ Single Contact User Card Component | React Introduction Lab
 import React from 'react';
     // css
 // import '../../Styles/Sitewide.css';
-import './Contacts.css';
+import './ContactUserCard.css';
     // helpers
 const { data } = require('../utils/helpers.js');
 let { contactNum } = require('../utils/helpers.js');

@@ -6,6 +6,8 @@ Contacts CSS | React Introduction Lab
 
 div#comp-contacts {
   grid-row: span 2;
+
+  height: auto;
 }
 
 div#contacts {
@@ -14,9 +16,16 @@ div#contacts {
   align-items: stretch;
   justify-content: flex-start;
   flex-wrap: nowrap;
+
+  height: 100%;
+
+  text-align: center;
 }
 
-div#contacts div.profcard {
-  border: solid 1px #000;
-  margin: 16px 32px;
+div#all-contacts {
+  height: 100%;
+
+  /* padding-bottom: 16px; */
+
+  overflow-y: scroll;
 }

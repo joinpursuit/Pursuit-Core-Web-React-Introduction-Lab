@@ -4,3 +4,10 @@ Posts CSS | React Introduction Lab
 */
 
 
+div#comp-posts {
+  height: auto;
+}
+
+div#posts {
+  height: 100%;
+}
