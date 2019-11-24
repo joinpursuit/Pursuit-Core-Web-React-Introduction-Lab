@@ -1,0 +1,12 @@
+.Header {
+    padding: 1em;
+    background-color: rgba(120, 201, 201, 0.132);
+    display: flex;
+    justify-content: flex-end;
+    
+    
+}
+
+button{
+    margin: 5px;
+}
