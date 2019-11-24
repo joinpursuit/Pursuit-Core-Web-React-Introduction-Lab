@@ -1,18 +1,18 @@
 .profileInfo {
   width: 400px;
-  height: 90px;
+  height: 130px;
   display: flex;
   gap: 12px;
-  border: 1px solid black;
 }
 .userProfile {
   border: 1px solid black;
   height: 200px;
-  width: 700px;
+  width: 800px;
   grid-row-start: 2;
   grid-row-end: 2;
   grid-column-start: 1;
   grid-column-end: 3;
+  margin-right: 30px;
 }
 .info {
   width: 500px;

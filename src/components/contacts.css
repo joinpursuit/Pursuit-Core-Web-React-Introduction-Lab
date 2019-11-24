@@ -11,4 +11,9 @@
   grid-column-start: 2;
   grid-column-end: 3;
   height: 700px;
+  padding-bottom: 10px;
+}
+
+.contacts > .profileInfo {
+  border: 1px solid black;
 }

@@ -12,8 +12,11 @@
   flex-direction: column;
   gap: 10px;
   justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
 }
 
 .post {
   border: 1px solid black;
+  width: 700px;
 }
