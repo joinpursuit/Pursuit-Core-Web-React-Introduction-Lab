@@ -5,13 +5,13 @@ NavBar Component | React Introduction Lab
 
 
 /* IMPORTS */
-    // helpers
-import { log } from '../Helpers.jsx';
     // components
 import React from 'react';
     // css
 import '../../Styles/Sitewide.css';
 import '../../Styles/NavBar.css';
+    // helpers
+// const { log, data } = require('../helpers.js');
 
 
 /* COMPONENT */
