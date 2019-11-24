@@ -1,7 +1,6 @@
 import React from 'react';
 import './UserProfile.css';
-import Posts from './Posts.jsx'
-import Contacts from './Contacts.jsx'
+
 
 class UserProfile extends React.Component {
  UserInfo = {
@@ -22,9 +21,6 @@ render(){
                 <p>{this.UserInfo.description}</p>
             </div>
         </div>
-
-        <Posts />
-        <Contacts />
         </div>
       
     )

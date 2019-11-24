@@ -12,11 +12,12 @@ class Contacts extends React.Component{
     render() {
         return(
         <div className = 'contacts'>
+            <h2>Contacts</h2>
             <div className = 'singleContact'>
                     <img src = {this.UserInfo.userImage}></img>
                 <div className = 'content'>
-                    <h1>{this.UserInfo.name}</h1>
-                    <h3>{this.UserInfo.title}</h3>
+                    <h2>{this.UserInfo.name}</h2>
+                    <h4>{this.UserInfo.title}</h4>
                     <p>{this.UserInfo.description}</p>
                 </div>
             </div>
@@ -24,8 +25,8 @@ class Contacts extends React.Component{
             <div className = 'singleContact'>
                     <img src = {this.UserInfo.userImage}></img>
                 <div className = 'content'>
-                    <h1>{this.UserInfo.name}</h1>
-                    <h3>{this.UserInfo.title}</h3>
+                    <h2>{this.UserInfo.name}</h2>
+                    <h4>{this.UserInfo.title}</h4>
                     <p>{this.UserInfo.description}</p>
                 </div>
             </div>
@@ -33,12 +34,20 @@ class Contacts extends React.Component{
             <div className = 'singleContact'>
                     <img src = {this.UserInfo.userImage}></img>
                 <div className = 'content'>
-                    <h1>{this.UserInfo.name}</h1>
-                    <h3>{this.UserInfo.title}</h3>
+                    <h2>{this.UserInfo.name}</h2>
+                    <h4>{this.UserInfo.title}</h4>
                     <p>{this.UserInfo.description}</p>
                 </div>
             </div>
-            
+
+            <div className = 'singleContact'>
+                    <img src = {this.UserInfo.userImage}></img>
+                <div className = 'content'>
+                    <h2>{this.UserInfo.name}</h2>
+                    <h4>{this.UserInfo.title}</h4>
+                    <p>{this.UserInfo.description}</p>
+                </div>
+            </div>
         </div>
         )
     }

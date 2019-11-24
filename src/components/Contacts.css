@@ -1,0 +1,23 @@
+.contacts{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: auto;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.contacts h2{
+    margin-bottom:0px;
+}
+.singleContact{
+    display: flex;
+    margin:10px; 
+    border: 1px solid black;
+}
+
+.singleContact img{
+    width: 30%;
+    /* height: auto; */
+    /* padding-right: 15px; */
+}
