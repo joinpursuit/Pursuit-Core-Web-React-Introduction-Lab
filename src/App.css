@@ -2,21 +2,36 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+
+.NavBar {
+  height: 100px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.userProfile {
+  border: 1px solid black;
+}
+
+.postBoard {
+  
+}
+
+.main-body {
+  display: flex;
+  margin-right: 5%;
+  margin-left: 5%;
+  width: 90%;
+  margin-top: 5%;
+  height: 95%;
+
+}
+
+.left-side {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex: 2;
+
 }
 
-.App-link {
-  color: #09d3ac;
+.right-side {
+  flex: 1;
 }

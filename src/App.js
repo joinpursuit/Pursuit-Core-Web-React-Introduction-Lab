@@ -1,24 +1,26 @@
 import React from 'react';
 import logo from './logo.svg';
+import Navbar from './NavBar';
+import UserProfile from './UserProfile';
+import PostBoard from './PostBoard';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className = 'whole-app'>
+      <Navbar className = 'navBar' />
+      <div className='main-body'>
+        <div className='left-side'>
+          <div className = 'userProfile'>
+           <UserProfile />
+          </div>
+          <div className = 'postBoard'>
+           <PostBoard />
+          </div>
+        </div>
+        <div className='right-side'>
+        </div>
+      </div>
     </div>
   );
 }
