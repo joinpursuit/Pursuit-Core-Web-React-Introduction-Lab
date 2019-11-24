@@ -1,0 +1,23 @@
+/*
+Joseph P. Pasaoa
+NavBar CSS | React Introduction Lab
+*/
+
+
+#navbar {
+  grid-column: span 2;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: center;
+
+  padding: 6px;
+
+  background-color: #acd8e5;
+}
+
+#navbar button {
+  margin-right: 12px;
+}

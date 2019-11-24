@@ -1,0 +1,22 @@
+/*
+Joseph P. Pasaoa
+Contacts CSS | React Introduction Lab
+*/
+
+
+div#comp-contacts {
+  grid-row: span 2;
+}
+
+div#contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+
+div#contacts div.profcard {
+  border: solid 1px #000;
+  margin: 16px 32px;
+}
