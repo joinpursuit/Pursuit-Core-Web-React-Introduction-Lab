@@ -8,10 +8,10 @@ UserProfile Component | React Introduction Lab
     // components
 import React from 'react';
     // css
-import '../../Styles/Sitewide.css';
-import '../../Styles/UserProfile.css';
+// import '../../Styles/Sitewide.css';
+import './UserProfile.css';
     // helpers
-const { data } = require('../helpers.js');
+const { data } = require('../utils/helpers.js');
 
 
 /* COMPONENT */

@@ -8,11 +8,11 @@ Single Contact User Card Component | React Introduction Lab
     // components
 import React from 'react';
     // css
-import '../../Styles/Sitewide.css';
-import '../../Styles/Contacts.css';
+// import '../../Styles/Sitewide.css';
+import './Contacts.css';
     // helpers
-const { data } = require('../helpers.js');
-let { contactNum } = require('../helpers.js');
+const { data } = require('../utils/helpers.js');
+let { contactNum } = require('../utils/helpers.js');
 
 
 /* COMPONENT */

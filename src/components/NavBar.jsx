@@ -8,10 +8,10 @@ NavBar Component | React Introduction Lab
     // components
 import React from 'react';
     // css
-import '../../Styles/Sitewide.css';
-import '../../Styles/NavBar.css';
+// import '../../Styles/Sitewide.css';
+import './NavBar.css';
     // helpers
-// const { log, data } = require('../helpers.js');
+// const { log, data } = require('../utils/helpers.js');
 
 
 /* COMPONENT */

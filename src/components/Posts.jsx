@@ -9,10 +9,10 @@ Posts Component | React Introduction Lab
 import React from 'react';
 import Post from './Post';
     // css
-import '../../Styles/Sitewide.css';
-import '../../Styles/Posts.css';
+// import '../../Styles/Sitewide.css';
+import './Posts.css';
     // helpers
-// const { log, data } = require('../helpers.js');
+// const { log, data } = require('../utils/helpers.js');
 
 
 /* COMPONENT */

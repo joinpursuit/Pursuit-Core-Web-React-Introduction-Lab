@@ -9,10 +9,10 @@ Contacts Component | React Introduction Lab
 import React from 'react';
 import ContactUserCard from './ContactUserCard';
     // css
-import '../../Styles/Sitewide.css';
-import '../../Styles/Contacts.css';
+// import '../../Styles/Sitewide.css';
+import './Contacts.css';
     // helpers
-// const { log, data } = require('../helpers.js');
+// const { log, data } = require('../utils/helpers.js');
 
 
 /* COMPONENT */

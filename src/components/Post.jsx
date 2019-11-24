@@ -8,10 +8,10 @@ Single Post Component | React Introduction Lab
     // components
 import React from 'react';
     // css
-import '../../Styles/Sitewide.css';
-import '../../Styles/Post.css';
+// import '../../Styles/Sitewide.css';
+import './Post.css';
     // helpers
-// const { log, data } = require('../helpers.js');
+// const { log, data } = require('../utils/helpers.js');
 
 
 /* COMPONENT */
