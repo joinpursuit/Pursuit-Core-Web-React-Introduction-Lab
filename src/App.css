@@ -20,3 +20,58 @@
 .App-link {
   color: #09d3ac;
 }
+
+.AppDiv .content {
+  display: grid;
+
+}
+
+.Contacts img {
+  width : 10%;
+}
+
+.UserProfile, .Contacts, .Posts {
+  border:solid 1px;
+}
+
+.NavBar {
+  background-color: #acd7e5;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.NavBar a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.NavBar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.NavBar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.content {
+display: grid;
+grid-template-columns: repeat(6, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.UserProfile { grid-area: 1 / 1 / 3 / 5; }
+.UserProfile img { width:20%;}
+.Posts { grid-area: 3 / 1 / 6 / 5; }
+.Contacts { grid-area: 1 / 5 / 6 / 7; } 
