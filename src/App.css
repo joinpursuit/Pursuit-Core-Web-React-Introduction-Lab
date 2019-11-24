@@ -1,5 +1,17 @@
+/* .root {
+
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 50px 1fr 2fr;
+} */
+
 .App {
+
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: 50px 1fr 2fr;
   text-align: center;
+  align-self: center;
 }
 
 .App-logo {

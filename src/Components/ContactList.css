@@ -1,0 +1,11 @@
+/* .contacts {
+    display: inline;
+    border: 2px solid black;
+} */
+
+.contact-user-card{
+    margin: 10px;
+    border: 2px solid black;
+    height: bottom;
+    align-items: center;
+}

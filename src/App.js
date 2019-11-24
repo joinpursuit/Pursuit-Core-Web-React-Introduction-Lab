@@ -1,15 +1,19 @@
 import React from 'react';
-// import './App.css';
+import './App.css';
 import ContactList from './Components/ContactList';
+import './Components/ContactList.css'
 
-// import PostsList from './Components/Post'
+import UserProfile from './Components/UserProfile'
+
+import PostsList from './Components/Post'
 
 function App() {
   return (
     <div className="App">
-      <p>Welcome</p>
+      <h1>Welcome</h1>
       <ContactList/>
-      {/* <PostsList/> */}
+      <UserProfile/>
+      <PostsList/>
     </div>
   );
 }

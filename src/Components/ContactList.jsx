@@ -4,8 +4,9 @@ import Contacts from './Contacts'
 class ContactList extends React.Component {
     render() {
         return (
-            <div className='contact-user-card'>
+            <div className='contacts'>
                 <ul>
+                    <Contacts/>
                     <Contacts/>
                     <Contacts/>
                     <Contacts/>
