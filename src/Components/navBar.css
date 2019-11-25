@@ -1,5 +1,7 @@
-.navbar{
+nav{
+    display: flex;
     background-color: lightblue;
-    text-align: end;
     padding: 10px;
+    justify-content: flex-end;
+    grid-column: 1 / 3;
 }
