@@ -1,0 +1,9 @@
+.Feed {
+    border: 2px solid black;
+    box-shadow: darkgray 2px 2px 2px;
+    padding: 10px;
+    margin: 10px;
+
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
