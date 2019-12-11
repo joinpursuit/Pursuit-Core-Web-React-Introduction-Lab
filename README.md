@@ -1,9 +1,16 @@
 # Pursuit-Core-Web-React-Introduction-Lab
 
+### Completed MVP Screen Capture
+
+![My completed mvp screencap](./readme/screencap.png)
+
+---
+
+## Directions
 
 Recreate the image below using React and CSS.  Use CSS Grid Layout to arrange your components.
 
-![ProfilePage](./ProfilePage.png)
+![ProfilePage](./readme/ProfilePage.png)
 
 ## Description
 
@@ -13,11 +20,11 @@ Your App will have the following components structure. Create a file per compone
 
 * Visualized as a component tree
 
-![components tree](./component_tree.png)
+![components tree](./readme/component_tree.png)
 
 * Visualized as a list
 
-![components list](./components.png)
+![components list](./readme/components.png)
 
 
 * Think about how this components tree matches what a user will see in the screen.
