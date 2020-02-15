@@ -7,7 +7,7 @@ const PostList = ({post}) =>{
     })
 
     return(
-        <div>
+        <div id="postList">
         {post}
         </div>
     )

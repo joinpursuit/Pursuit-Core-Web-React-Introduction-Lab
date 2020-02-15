@@ -7,7 +7,7 @@ const NavBar = ({links}) =>{
     })
 
     return(
-        <div>
+        <div id="navBar">
         {links}
         </div>
     )

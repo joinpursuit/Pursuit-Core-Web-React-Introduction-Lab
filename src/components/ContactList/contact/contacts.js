@@ -1,5 +1,4 @@
 import React from 'react';
-export default Contacts;
 
 const Contacts = ({name,position,statement})=>{
     return(
@@ -15,3 +14,5 @@ const Contacts = ({name,position,statement})=>{
     )
 }
 
+
+export default Contacts;
