@@ -1,0 +1,19 @@
+.Contacts{
+    margin-left: 820px;
+    background-color: orange;
+    border: 2px solid black;
+    display: flex;
+    height: 50%;
+    width: 50%;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+
+}
+
+.Person{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+   
+}

@@ -1,9 +1,15 @@
 .buttons {
     display: flex;
-    flex-direction: row;
-    color: red;
+   /* justify-content: space-evenly; */
+   margin-right: 10px;
+    
 }
 
 .Navbar{
-    color: blue;
+    display: flex;
+    height: 50px;
+    background-color: lightblue;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
 }

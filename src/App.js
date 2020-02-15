@@ -20,6 +20,7 @@ function App() {
       </div>
 
       <div className="Contacts">
+      <h1>Contacts</h1>
         <Contacts name = {"Jovanni"} title = {"Concierge"} summary = {"Que lo que?"}/>
         <Contacts name = {"Ohidur"} title = {"Soundcloud Rapper"} summary = {"You know who it is!"}/>
         <Contacts name = {"Corey"} title = {"JS teacher"} summary = {"Hypebeast, we lit"}/>
