@@ -19,9 +19,9 @@ function App() {
 
       <div className="Posts">
       <h1>Posts</h1>
-        <Posts title= {"Test title"} summary= {"Writing a new posts"}/>
-        <Posts title= {"Test title"} summary= {"Writing a new posts"}/>
-        <Posts title= {"Test title"} summary= {"Writing a new posts"}/>
+        <Posts title= {"Yerr"} summary= {"Add me on Snapchat"}/>
+        <Posts title= {"JS"} summary= {"I love to code!"}/>
+        <Posts title= {"Thoughts"} summary= {"Why do our nose run, but feet smell?"}/>
       </div>
 
       <div className="Contacts">

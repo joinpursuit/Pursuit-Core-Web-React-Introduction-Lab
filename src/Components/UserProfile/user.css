@@ -1,14 +1,16 @@
 .Profile{  
     border: 2px solid black;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    margin: 20px;
     
 
 }
 
 .ProfileList{
     display: flex;
-    justify-content: start;
+    flex-direction: column;
+    align-items: center;
 }
 
 #name{

@@ -2,9 +2,13 @@ import React from 'react';
 import './post.css'
 const Posts = (props) => {
     return (
-        <div className={"onePost"}>
-            Tile: {props.title},
-            Summary: {props.summary}
+        <div className={"Posts"}>
+        <div className='PostList'>
+            <div id="title">
+            {props.title}
+            </div>
+            {props.summary}
+            </div>
         </div>
     )
 }
