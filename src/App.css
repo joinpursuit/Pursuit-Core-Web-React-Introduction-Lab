@@ -6,12 +6,13 @@
   grid-template-areas: "navbar navbar navbar navbar" "userprofile userprofile . container" "postcontainer . . container";
 }
 .navbar { grid-area: navbar;
-  display: flex;
+    display: flex;
     flex-direction: row-reverse;
+    background: lightblue
  }
-.userprofile { grid-area: userprofile; }
-.postcontainer { grid-area: postcontainer; }
-.container { grid-area: container; }
+.userprofile { grid-area: userprofile; border: solid black}
+.postcontainer { grid-area: postcontainer;border: solid black }
+.container { grid-area: container;border: solid black }
 
 
 
