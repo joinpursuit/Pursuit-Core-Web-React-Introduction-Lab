@@ -1,15 +1,15 @@
 import React from 'react';
-import Link from "./link/link"
+import Link from "./link/link";
 
-const NavBar = (Link) =>{
-    Link= Link.map(el =>{
-        return < Link url= {el.url} key={el.url}/>
+const NavBar = ({links}) =>{
+    links= links.map(link =>{
+        return < Link urlName= {link.urlName} urlLink = {link.urlLink} key={link.urlName}/>
     })
 
     return(
-        <nav className = {"navLink"}>
-            {/* <Link/> */}
-        </nav>
+        <>
+        {links}
+        </>
     )
 
 }

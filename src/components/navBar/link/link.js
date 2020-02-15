@@ -1,12 +1,13 @@
 import React from 'react';
 
-const Link = ({urlLink,urlName})=>{
+const Link = ({urlName,urlLink})=>{
     return(
         <div className={"Link"}>
             
             <a href={urlLink}>
-                <input type="button" value={urlName}></input>
+            <input type="button" value={urlName}></input>
             </a>
+            
         </div>
     )
 }
