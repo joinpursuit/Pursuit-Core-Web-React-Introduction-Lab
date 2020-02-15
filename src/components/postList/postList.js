@@ -3,11 +3,13 @@ import Post from "./posts/post";
 
 const PostList = ({post}) =>{
     post= post.map(post =>{
-        return <Post title={post.title} content ={post.content} key={post.title}/>
+        return <Post post_id={post.post_id} title={post.title} content ={post.content} key={post.post_id}/>
     })
 
     return(
-        <div>
+        
+        <div className="PostList">
+        <h1>Posts</h1>
         {post}
         </div>
     )
