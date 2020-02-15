@@ -19,10 +19,13 @@ import React from 'react';
 
 const Post = ({title, description}) => {
     return(
+        <>
         <div className="post">
-            Title: {title}
-            Description: {description}
+            {title}
+            <br/>
+            {description}
         </div>
+        </>
     )
 }
 

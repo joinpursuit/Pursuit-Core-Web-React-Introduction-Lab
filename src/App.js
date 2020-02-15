@@ -16,6 +16,7 @@ const App = () => {
           <Users />
         </div>
         <div>
+        <h3>Posts</h3>
           <Posts posts = {[{title: "Title", description: "Loren Ipsem" },
           {title: "Title", description: "Loren Ipsem" },
           {title: "Title", description: "Loren Ipsem" }]
