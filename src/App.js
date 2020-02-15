@@ -7,7 +7,7 @@ function App() {
   return (
       // console.log({url,urlName})  
     <div className="App">
-      <NavBar links = {[{urlName:"1",urlLink:"2"}]}/>
+      <NavBar links = {[{urlName:"What is Pursuit",urlLink:"2"},{urlName:"Create an account",urlLink:"2"},{urlName:"Sign in",urlLink:"2"}]}/>
     </div>
 
   );

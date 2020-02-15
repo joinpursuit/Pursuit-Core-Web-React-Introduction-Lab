@@ -2,7 +2,7 @@ import React from 'react';
 
 const Link = ({urlName,urlLink})=>{
     return(
-        <div className={"Link"}>
+        <div className={"link"}>
             
             <a href={urlLink}>
             <input type="button" value={urlName}></input>
