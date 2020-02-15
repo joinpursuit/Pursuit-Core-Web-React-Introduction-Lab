@@ -3,7 +3,7 @@ import Post from '../Post/Post';
 
 const Posts = ({ posts }) => {
     posts = posts.map(post => {
-        return <Post title={post.title} description = {post.description} key= {post.title}/>
+        return <Post title={post.title} description = {post.description} key ={post.title}/>
 
     })
     return(
