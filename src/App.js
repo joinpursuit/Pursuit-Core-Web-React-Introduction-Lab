@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <Contacts contactList= {[{name: "Sam", title: "Student", caption: "Hey", image: "img1"}, {name: "Maria", title: "Student", caption: "Bonjour", image: "img2"}]} />
       <Posts posts= {[{title: "Cool", caption: "Hey"}]} />
-      <UserProfile {[{name: "Maria", title: "Student", caption: "Bonjour"}]} />
+      {/* <UserProfile [name: "Maria", title: "Student", caption: "Bonjour"] /> */}
       <NavBar />
     </div>
   );
