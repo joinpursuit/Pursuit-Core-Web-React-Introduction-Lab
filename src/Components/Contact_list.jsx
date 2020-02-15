@@ -1,5 +1,5 @@
 import React from 'react'
-import Contacts from './Contacts'
+import Contact from './Contacts'
 import './Contact_list.css'
  class Contact_list extends React.Component {
    constructor() {

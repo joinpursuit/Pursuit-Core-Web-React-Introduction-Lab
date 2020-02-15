@@ -2,7 +2,7 @@ import React from 'react';
 import UserProfile from './User_profile'
 import './Posts.css'
 
-class Post extends React.Component {
+class Posts extends React.Component {
   constructor() {
     super();
     this.info ={
