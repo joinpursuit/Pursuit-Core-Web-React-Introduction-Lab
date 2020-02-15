@@ -5,5 +5,13 @@
 .App-logo {
   height: 40vmin;
 } */
-
-
+.App {
+  display: grid;
+  grid-template-columns: 1.1fr 1.1fr 1fr 0.8fr;
+  grid-template-rows: 0.2fr 0.9fr 1.9fr;
+  grid-template-areas: "Navbar Navbar Navbar Navbar" "UserProfile UserProfile Contacts Contacts" "Posts Posts Contacts Contacts";
+}
+.UserProfile { grid-area: UserProfile; }
+.Contacts { grid-area: Contacts; }
+.Posts { grid-area: Posts; }
+.Navbar { grid-area: Navbar; }
