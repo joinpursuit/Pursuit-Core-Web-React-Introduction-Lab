@@ -1,0 +1,7 @@
+.user-profile{
+    /* display: flex; */
+ justify-items: right;   
+    padding: 40px;
+    background-color:lightcoral;
+    border-style: double;
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from "./components/navbar";
 import Userprofile from './components/userprofile';
-// import posts from "./components/posts/posts"
+import Post from "./components/posts"
 // import userprofile from  "./components/userprofile/userprofile"
 // import contacts from "./components/contacts/contacts"
 
@@ -19,8 +19,13 @@ const App = () => {
         <p>
           <Userprofile body={"I'm just here to code"}/>
         </p>
-
-
+      </div>
+            
+      <div className = "post">
+        <p>
+          <Post title = {"Today's Post"}/>
+          <Post comment = {"What a Beautiful day to code"}/>
+        </p>
       </div>
     </div>
   );
