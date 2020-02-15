@@ -1,19 +1,19 @@
 import React from 'react';
 
-import './Contacts.css'
-import Contact_list from './Contact_list';
+// import './Contacts.css'
+import ContactList from './ContactList';
 
-class Contact_list extends React.Component {
+class Contact extends React.Component {
     render(){
         return(
             <div>
                 <h2>Contacts</h2>
-                <Contact_list/>
-                <Contact_list/>
-                <Contact_list/>
-                <Contact_list/>
+                <ContactList/>
+                <ContactList/>
+                <ContactList/>
+                <ContactList/>
             </div>
         )
     }
 }
-export default Contacts;
+export default Contact;

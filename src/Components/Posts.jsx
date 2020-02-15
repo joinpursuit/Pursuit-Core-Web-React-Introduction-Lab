@@ -1,5 +1,5 @@
 import React from 'react';
-import UserProfile from './User_profile'
+
 import './Posts.css'
 
 class Posts extends React.Component {

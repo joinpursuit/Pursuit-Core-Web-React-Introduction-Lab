@@ -1,12 +1,11 @@
 import React from 'react'
-import Contact from './Contacts'
-import './Contact_list.css'
- class Contact_list extends React.Component {
+
+ class ContactList extends React.Component {
    constructor() {
      super ();
      this.info ={
-       name: 'Marck',
-       image: Avatar,
+       name: 'Mark',
+
        title: 'Creator',
        description:'Hello word',
    }
@@ -15,7 +14,7 @@ import './Contact_list.css'
  render(){
    return(
      <div>
-       <img src={this.info.image} alt="picture of a person"></img>
+  
        <h3> {this.info.name}</h3>
        <h4>{this.info.title}</h4>
        <p>{this.info.description}</p>
@@ -24,4 +23,4 @@ import './Contact_list.css'
  }
  }
 
-export default Contact_list;
+export default ContactList;
