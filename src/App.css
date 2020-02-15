@@ -1,4 +1,26 @@
 
+.App{
+  display: grid;
+  grid-template-columns: 4.4fr 0.6fr 1.3fr 2.1fr;
+  grid-template-rows: 0.2fr 1.8fr 1fr;
+  grid-template-areas: "navbar navbar navbar navbar" "userprofile userprofile . container" "postcontainer . . container";
+}
+.navbar { grid-area: navbar;
+  display: flex;
+    flex-direction: row-reverse;
+ }
+.userprofile { grid-area: userprofile; }
+.postcontainer { grid-area: postcontainer; }
+.container { grid-area: container; }
+
+
+
+
+
+
+
+
+
 
 
 
