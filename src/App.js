@@ -1,24 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Navbar from "./components/navbar";
+import Userprofile from './components/userprofile';
+// import posts from "./components/posts/posts"
+// import userprofile from  "./components/userprofile/userprofile"
+// import contacts from "./components/contacts/contacts"
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className = "App">
+      <Navbar/>
+      <div className="user-profile">
+        <h1>
+          <Userprofile name={"Rafid"}/>
+        </h1>
+        <h2>
+          <Userprofile title={"Boss Developer"}/>
+        </h2>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <Userprofile body={"I'm just here to code"}/>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+
+      </div>
     </div>
   );
 }
