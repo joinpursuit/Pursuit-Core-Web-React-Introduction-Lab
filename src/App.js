@@ -2,7 +2,7 @@ import React from 'react';
 import NavBar from './components/NavBar/NavBar';
 import Users from './components/UserProfile/UserProfile';
 import Posts from './components/Posts/Posts';
-import Contacts from './components/Contacts/Contacts'
+import Contact from './components/Contact/Contact'
 // import logo from './logo.svg';
 // import './App.css';
 
@@ -23,7 +23,10 @@ const App = () => {
           {title: "Title 2", description: "Loren Ipsem" }]
           }
           />
-          <Contacts />
+          <h4>Contacts</h4>
+          <Users contact ={[{name: "Name", title: "Title", description: "description"},
+          {name: "Name1", title: "Title1", description: "description1"},{name: "Name2", title: "Title2", description: "description2"}
+          ]}/>
 
         </div>
 
