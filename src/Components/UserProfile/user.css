@@ -1,0 +1,16 @@
+.Profile{  
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.ProfileList{
+    display: flex;
+    justify-content: start;
+}
+
+#name{
+    font-weight: bold;
+}

@@ -3,6 +3,7 @@ import './App.css';
 import Nav from './Components/Navbar/navBar';
 import Posts from './Components/Posts/Posts'
 import Contacts from './Components/Contacts/Contacts';
+import Users from './Components/UserProfile/userProfile.js'
 
 function App() {
   return (
@@ -12,8 +13,12 @@ function App() {
         <Nav name = {"Create User"}/>
         <Nav name = {"Sign In"}/>
       </div>
+      <div className="UserProfile">
+        <Users name = {"Jon"} title = {"Clout Chaser"} summary  = {"Always chase the check"}/>
+      </div>
 
       <div className="Posts">
+      <h1>Posts</h1>
         <Posts title= {"Test title"} summary= {"Writing a new posts"}/>
         <Posts title= {"Test title"} summary= {"Writing a new posts"}/>
         <Posts title= {"Test title"} summary= {"Writing a new posts"}/>
