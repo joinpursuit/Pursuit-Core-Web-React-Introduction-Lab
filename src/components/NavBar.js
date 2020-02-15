@@ -1,10 +1,11 @@
 import React from 'react';
 
 const NavBar = () => {
-    console.log(name)
     return(
-        <div className={"person"}>
-            Name: {name}
+        <div className={"contactCard"}>
+            <button>What is Pursuit?</button>
+            <button>Create an Account</button>
+            <button>Sign In</button>
         </div>
     )
 }

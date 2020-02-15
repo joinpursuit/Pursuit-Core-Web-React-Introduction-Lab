@@ -1,24 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import NavBar from './components/NavBar';
+import UserProfile from './components/UserProfile';
+import Posts from './components/Posts';
+import Contacts from './components/Contacts';
+// import ContactUserCard from './components/ContactUserCard';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Contacts contactList= {[{name: "Sam", title: "Student", caption: "Hey", image: "img1"}, {name: "Maria", title: "Student", caption: "Bonjour", image: "img2"}]} />
+      <Posts posts= {[{title: "Cool", caption: "Hey"}]} />
+      <UserProfile {[{name: "Maria", title: "Student", caption: "Bonjour"}]} />
+      <NavBar />
     </div>
   );
 }

@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Post = () => {
-    console.log(name)
+const Post = ({ title, caption }) => {
     return(
         <div className={"person"}>
-            Name: {name}
+            Title: {title},
+            Caption: {caption}
         </div>
     )
 }

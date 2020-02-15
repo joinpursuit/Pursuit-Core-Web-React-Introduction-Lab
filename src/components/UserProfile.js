@@ -1,10 +1,12 @@
 import React from 'react';
 
-const UserProfile = () => {
-    console.log(name)
+const UserProfile = ({ name, title, caption, image }) => {
     return(
-        <div className={"person"}>
-            Name: {name}
+        <div className={"contactCard"}>
+            Name: {name},
+            Title: {title},
+            Caption: {caption},
+            Image: {image}
         </div>
     )
 }
