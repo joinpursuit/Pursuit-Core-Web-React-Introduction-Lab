@@ -1,4 +1,5 @@
 import React from 'react';
+import "../css/profile.css"
 
 const Profile = ({name,position,statement})=>{
     return(

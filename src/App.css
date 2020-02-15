@@ -1,22 +1,20 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App{
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-template-areas: 
+    "hd hd hd hd hd hd hd hd hd"
+    "pr pr pr pr pr pr sd sd sd"
+    "pr pr pr pr pr pr sd sd sd"
+    "ft ft ft ft ft ft sd sd sd"
+    "ft ft ft ft ft ft sd sd sd"
+    "ft ft ft ft ft ft sd sd sd";
 }
-
-.App-link {
-  color: #09d3ac;
+.App > div {
+  border: 2px solid #ffa94d;
 }
+/* div{
+  border: solid black;
+} */

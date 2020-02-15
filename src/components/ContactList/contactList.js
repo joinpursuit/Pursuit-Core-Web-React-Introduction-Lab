@@ -1,5 +1,6 @@
 import React from 'react';
 import Contacts from "./contact/contacts"
+import "../../css/contact.css"
 
 const ContactList =({contacts})=>{
     contacts = contacts.map(contact =>{
