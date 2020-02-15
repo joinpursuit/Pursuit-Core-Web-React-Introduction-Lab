@@ -10,6 +10,7 @@ function App() {
     
       <Link  { urlLink="http://joinpursuit.github.io/jsworkshop/index.html", urlName="pursuit"}/>
     </div>
+    
   );
 }
 
