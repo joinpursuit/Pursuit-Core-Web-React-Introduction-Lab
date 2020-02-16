@@ -1,6 +1,4 @@
 import React from "react"
-// import "../../css/posts.css"
-
 //post takes a title and a comment
 
 const Post = ({title, comment}) =>{

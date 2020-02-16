@@ -1,13 +1,15 @@
 import React from "react";
-import "./../../src/css/userprofile.css" 
+// import "../components/css/userprofile" 
 
-const Userprofile = ({ name, title, body})=>{
+
+const Userprofile = ({ image, name, title, body})=>{
     return(
-        <div classname="profile"> 
+        <div className="profile"> 
+        { image }
         { name }
-        {title}
+        { title }
         { body }
         </div>
     )
 }
-export default Userprofile
+export default Userprofile;
