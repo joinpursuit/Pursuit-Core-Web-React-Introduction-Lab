@@ -20,7 +20,7 @@ const avatar = require ('./Avatars/Avatar.png')
       <img src={avatar} alt="avatar"></img>
        </div>
        <div class='userInfo'>
-       <h3> {this.info.name}</h3>
+       <h3>{this.info.name}</h3>
        <h4>{this.info.title}</h4>
        <p>{this.info.description}</p>
        </div>

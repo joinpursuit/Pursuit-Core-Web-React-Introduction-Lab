@@ -10,15 +10,13 @@ class Contact extends React.Component {
             <div>
                 <div id="contacts">
                 <h2>Contacts</h2>
+                <div id="contact_List">
                 <ContactList/>
                 <ContactList/>
                 <ContactList/>
                 <ContactList/>
                 </div>
-                <div>
                 </div>
-
-                
             </div>
         )
     }

@@ -1,0 +1,12 @@
+nav{
+  background-color: skyblue;
+  display: flex;
+}
+button{
+  background-color: white;
+  margin: 10px;
+ /* align-items: right; */
+ /* left: 0px; */
+ 
+  
+}
