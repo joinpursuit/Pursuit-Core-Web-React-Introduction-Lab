@@ -4,6 +4,7 @@ import UserProfile from './Components/UserProfile';
 import NavBar from './Components/NavBar'
 
 import './App.css';
+import Posts from './Components/Posts';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
      <NavBar/>
      <Contact/>
      <UserProfile/>
+     <Posts/>
   
     </div>
   );

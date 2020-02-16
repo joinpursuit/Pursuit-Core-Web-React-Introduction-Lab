@@ -19,7 +19,6 @@ img{
   width: 130px;
   height: 150px;
   background-color: gray;
-  /* align-items: center; */
 }
 .userInfo{
   flex: right;

@@ -1,10 +1,9 @@
 import React from 'react';
-
 import './Posts.css'
 
 class Posts extends React.Component {
   constructor() {
-    super();
+     super();
     this.info ={
       title: 'Title',
       description: 'Description'
