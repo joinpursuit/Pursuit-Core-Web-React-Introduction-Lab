@@ -12,18 +12,19 @@ function App() {
       <>
         <NavBar />
       </>
-
-      <>
-        <UserProfile />
-      </>
-
-      <>
-        <Posts />
-      </>
-
-      <>
-        <Contacts />
-      </>
+      <div id="container">
+        <div id="left-container">
+          <>
+            <UserProfile />
+          </>
+          <>
+            <Posts />
+          </>
+        </div>
+        <>
+          <Contacts />
+        </>
+      </div>
     </div>
   );
 }

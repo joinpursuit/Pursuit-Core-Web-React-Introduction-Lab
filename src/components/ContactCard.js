@@ -1,4 +1,5 @@
 import React from "react";
+import "../master/ContactCard.css";
 
 class ContactCard extends React.Component {
   render() {
@@ -11,3 +12,5 @@ class ContactCard extends React.Component {
     );
   }
 }
+
+export default ContactCard;
