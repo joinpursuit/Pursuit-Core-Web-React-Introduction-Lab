@@ -1,3 +1,29 @@
-.contactContainer {
-   background-color: turquoise;
-}
+#contactContainer {
+   display: flex;
+   justify-items: right;
+   background-color: white;
+   border: 1px solid black;
+   width: 80%;
+   height: 100%;
+   margin-left: 5%;
+   margin-bottom: 2%;
+ }
+ 
+ .contactPic {
+     width: 25%;
+ }
+ 
+ .contactProfileImg {
+     width: 50%;
+     position: relative;
+     top: 0px;
+     left: 0px;
+ }
+ 
+ #contacts {
+   text-align: center;  
+ }
+
+ h1 {
+    text-align: center;
+ }

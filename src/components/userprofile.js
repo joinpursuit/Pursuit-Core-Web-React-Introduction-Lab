@@ -1,15 +1,22 @@
 import React from "react";
-// import "../components/css/userprofile" 
+import "../css/Userprofile.css";
 
-
-const Userprofile = ({ image, name, title, body})=>{
-    return(
-        <div className="profile"> 
-        { image }
-        { name }
-        { title }
-        { body }
-        </div>
-    )
-}
+const Userprofile = ({ name, title, body }) => {
+  return (
+    <div className="profile">
+      <div className="pic">
+        <img
+          className="userProfileImg"
+          src="https://www.w3schools.com/howto/img_avatar.png"
+          alt="profile-pic"
+        ></img>
+      </div>
+      <div id="info">
+        <h3>{name}</h3>
+        <h4>{title}</h4>
+        <p>{body}</p>
+      </div>
+    </div>
+  );
+};
 export default Userprofile;

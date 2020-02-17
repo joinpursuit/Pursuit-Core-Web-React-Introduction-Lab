@@ -1,7 +1,24 @@
-.user-profile{
-    /* display: flex; */
- justify-items: right;   
-    padding: 40px;
-    background-color:lightcoral;
-    border-style: double;
+.profile {
+  display: flex;
+  justify-items: right;
+  background-color: white;
+  border: 1px solid black;
+  width: 75%;
+  height: 100%;
+  margin-left: 5%;
+}
+
+.pic {
+  width: 25%;
+}
+
+.userProfileImg {
+  width: 50%;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+#info {
+  text-align: center;
 }
