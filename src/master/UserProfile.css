@@ -1,22 +1,22 @@
-.userProfile {
-    border: 2px solid black;
-    width: 75%;
-    position: static;
-    left: 0;
-    margin: 10px;
+.UserProfile {
+  border: 2px solid black;
+  width: 75%;
+  position: static;
+  left: 0;
+  margin: 10px;
 }
 
 #userInfo {
-    display: grid;
-    position: static;
-    grid-row: 10% 10% 10%;
-    grid-column: 50% 50%;
+  display: grid;
+  position: static;
+  grid-row: 10% 10% 10%;
+  grid-column: 50% 50%;
 }
 
-h3{
-    display:grid;
+h3 {
+  display: grid;
 }
 
-p{
-    display:grid;
+p {
+  display: grid;
 }
