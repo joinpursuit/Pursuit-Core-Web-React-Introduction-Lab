@@ -1,0 +1,8 @@
+#post{
+  width: 56%;
+  height: 415px;
+  border: 3px solid gray;
+  float: left;
+  margin-left: 20px;
+  margin-top: 42px;
+}

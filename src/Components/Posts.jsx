@@ -12,10 +12,12 @@ class Posts extends React.Component {
 
   render(){
     return(
-      <div>
+      
+      <div className="posts">
         <h3>{this.info.title}</h3>
         <p>{this.info.description}</p>
       </div>
+     
     )
   }
 }

@@ -1,12 +1,14 @@
+
 nav{
   background-color: skyblue;
+
+}
+#navDiv{
   display: flex;
+  margin-left: 75%;
 }
 button{
   background-color: white;
   margin: 10px;
- /* align-items: right; */
- /* left: 0px; */
- 
   
 }

@@ -1,7 +1,8 @@
 import React from 'react';
 
- import './Contact.css'
+import './Contact.css'
 import ContactList from './ContactList';
+// import UserProfile from './UserProfile';
 
 
 class Contact extends React.Component {
@@ -11,7 +12,6 @@ class Contact extends React.Component {
                 <div id="contacts">
                 <h2>Contacts</h2>
                 <div id="contact_List">
-                <ContactList/>
                 <ContactList/>
                 <ContactList/>
                 <ContactList/>

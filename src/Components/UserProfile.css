@@ -1,0 +1,38 @@
+#contact2 {
+  justify-content: space-around;
+  padding: 20px 20px 10px 20px;
+  border: none;
+  background-color: white;
+}
+
+.image2{
+  
+  background-image: gray;
+}
+.user2{
+  width: 58%;
+  border-style: solid;
+  border-color: gray;
+  display: flex;
+  padding-bottom: 50px;
+  float: left;
+}
+
+img{
+  flex: left;
+  width: 130px;
+  height: 150px;
+  background-color: gray;
+}
+.userInfo2{
+  flex: right;
+  padding-left: 20px;
+  text-align: left
+
+}
+h4{
+  padding-left: 10px;
+}
+p{
+  padding-left: 15px;
+}

@@ -15,11 +15,11 @@ const avatar = require ('./Avatars/Avatar.png')
  render(){
    return(
      <div id='contact'>
-       <div class="user">
-       <div class='image'>
+       <div className="user">
+       <div className='image'>
       <img src={avatar} alt="avatar"></img>
        </div>
-       <div class='userInfo'>
+       <div className='userInfo'>
        <h3>{this.info.name}</h3>
        <h4>{this.info.title}</h4>
        <p>{this.info.description}</p>

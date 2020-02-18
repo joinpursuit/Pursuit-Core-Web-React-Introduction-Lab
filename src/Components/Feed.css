@@ -1,0 +1,18 @@
+
+.allPosts {
+  width: 613px;
+  height: 27px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px 20px 20px;
+  border: 2px solid gray;
+  margin: 0px 41px 21px 35px;
+  float: left;
+}
+
+h3, p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+}
