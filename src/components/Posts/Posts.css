@@ -1,0 +1,9 @@
+.posts {
+    position: absolute;
+    top: 40%;
+    left: 2rem;
+    width: 40vw;
+    height: 55vh;
+    border: solid black;
+    border-width: 1px;
+}
