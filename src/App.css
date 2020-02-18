@@ -1,22 +1,72 @@
 .App {
+  display: grid;
+  grid-template-rows: repeat(20, 1fr);
+  grid-template-columns: repeat(30, 1fr)l;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.NavBar {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: lightblue;
+  padding: 15px;
+  justify-content: flex-end;
+  grid-row: 1/2;
+  grid-column: 1/31;
 }
 
-.App-link {
-  color: #09d3ac;
+button {
+  margin: 15px
+}
+
+.UserProfile {
+  display: flex;
+  border: 2px solid black;
+  margin: 50px;
+  grid-row: 2/8;
+  grid-column: 1/30;
+}
+
+.UserPic {
+  justify-content: flex-start;
+  margin-bottom: 20%;
+}
+
+.UserInfo {
+  margin: 50px;
+}
+
+.Posts {
+  border: 2px solid black;
+  margin: 50px;
+  grid-row: 8/16;
+  grid-column: 1/30;
+}
+
+.PostCard {
+  border: 2px solid black;
+  margin: 50px;
+}
+
+.Contacts {
+  border: 2px solid black;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  grid-row: 2/16;
+  grid-column: 30/31;
+}
+
+.ContactCard {
+  display: flex;
+  border: 2px solid black;
+  margin: 50px;
+}
+
+.ContactPic {
+  height: 40%;
+  width: 40%;
+}
+
+.ContactInfo {
+  margin-left: 50px;
 }
