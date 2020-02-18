@@ -3,7 +3,40 @@
     top: 40%;
     left: 2rem;
     width: 40vw;
-    height: 55vh;
+    height: 60vh;
     border: solid black;
     border-width: 1px;
+}
+
+.posts-first {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    width: 38vw;
+    height: 18vh;
+    border: solid grey;
+    border-width: 1px;
+    text-align: center;
+}
+
+.posts-second {
+    position: absolute;
+    top: 35%;
+    left: 2%;
+    width: 38vw;
+    height: 18vh;
+    border: solid blue;
+    border-width: 1px;
+    text-align: center;
+}
+
+.posts-third {
+    position: absolute;
+    top: 68%;
+    left: 2%;
+    width: 38vw;
+    height: 18vh;
+    border: solid pink;
+    border-width: 1px;
+    text-align: center;
 }
