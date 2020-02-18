@@ -3,7 +3,9 @@ import './UserProfile.css';
 
 const userProfile = (props) =>(
     <div className="userProfile">
-        <p>This is User Profile</p>
+        <div className="userProfile-picture">
+
+        </div>
     </div>
 )
 

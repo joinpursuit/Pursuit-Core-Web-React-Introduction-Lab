@@ -1,0 +1,17 @@
+.userProfile {
+    position: absolute;
+    background-color: white;
+    border: solid black;
+    border-width: 1px;
+    width: 40vw;
+    height: 30vh;
+    left: 2rem
+}
+
+.userProfile-picture {
+    border-width: 1px;
+    width: 12vw;
+    height: 18vh;
+    background-image: url(https://t1.daumcdn.net/cfile/tistory/257C683F5239CB3A23);
+    background-size: cover;
+}
