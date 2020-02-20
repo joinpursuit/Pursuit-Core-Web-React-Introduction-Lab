@@ -1,0 +1,11 @@
+.userProfile {
+    display: grid;
+    margin-right: 50%;
+    justify-content: center;
+    border: 2px solid black;
+    grid-template-columns: 1fr 1fr 1fr 1f 1fr  1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: ". . . ." "userProfile userProfile . ." ". . . ." ". . . ." ". . . .";
+  }
+  
+  .userProfile { grid-area: userProfile; }

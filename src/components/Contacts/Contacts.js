@@ -1,5 +1,6 @@
 import React from "react";
 import ContactUserCard from "./ContactUserCard";
+import '../../master/contacts.css'
 
 class Contacts extends React.Component {
   render() {

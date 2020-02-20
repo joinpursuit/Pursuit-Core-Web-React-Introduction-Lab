@@ -1,0 +1,13 @@
+.contacts {
+    display: inline-table;
+    justify-content: center;
+    border: 2px solid black;
+    width: 600px;
+    margin-left: 60%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    /* grid-template-areas: ". . . . . ." ". . . contacts contacts contacts" ". . . contacts contacts contacts" ". . . contacts contacts contacts" ". . . contacts contacts contacts"; */
+  }
+  
+ 
+  

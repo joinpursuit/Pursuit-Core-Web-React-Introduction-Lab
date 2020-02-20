@@ -1,4 +1,5 @@
 import React from 'react'
+import '../master/userProfile.css'
 
 class UserProfile extends React.Component {
     render() {

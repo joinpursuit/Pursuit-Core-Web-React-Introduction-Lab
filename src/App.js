@@ -4,23 +4,25 @@ import "./App.css";
 import NavBar from "./components/NavBar";
 import Contacts from "./components/Contacts/Contacts";
 import UserProfile from "./components/UserProfile";
-import Post from "./components/Posts/Post/Post"
+import Post from "./components/Posts/Post/Post";
 
 function App() {
   return (
     <section className="app">
-        <>
-      <NavBar />
-        </>
+      <>
+        <NavBar />
+      </>
+      <>
         <section className="container">
-        <section id="leftContainer">
+          <section id="leftContainer">
             <UserProfile />
-            <Post />
-
+            <Post post={{ title: "this title", body: "this body" }} />
+          </section>
         </section>
-
-        </section>
+      </>
+      <>
         <Contacts />
+      </>
     </section>
   );
 }

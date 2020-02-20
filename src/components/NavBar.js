@@ -1,4 +1,5 @@
 import React from 'react';
+import '../master/navBar.css';
 
 class NavBar extends React.Component {
 
@@ -13,7 +14,7 @@ class NavBar extends React.Component {
 
                 <section id="container">
                     <section id="leftContainer">
-                        
+
                     </section>
                 </section>
 
