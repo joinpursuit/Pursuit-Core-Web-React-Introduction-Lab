@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../../master/post.css'
 // import Posts from "./Posts";
 
 // class Post extends React.Component {
