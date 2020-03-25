@@ -10,16 +10,10 @@ import Master from './components/MasterUser/MasterUser'
 const App = () => {
   return (
     <div className="App">
-
-      <header className="App-header">
-       <NavBar />
-      </header>
-        <div>
+          <NavBar />
           <Master />
           <Posts />
           <Users />
-        </div>
-
     </div>
   );
 }
