@@ -2,7 +2,8 @@ import React from 'react';
 import NavBar from './components/NavBar/NavBar';
 import Users from './components/UserProfile/UserProfile';
 import Posts from './components/Posts/Posts';
-import Master from './components/MasterUser/MasterUser'
+import Master from './components/MasterUser/MasterUser';
+import './App.css'
 
 // import logo from './logo.svg';
 // import './App.css';

@@ -1,4 +1,12 @@
-.NavBar{
+.Button{
     background-color: #87CEEB;
+}
 
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1%;
 }
