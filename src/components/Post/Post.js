@@ -10,10 +10,10 @@ class Post extends React.Component{
     ]
     let postMap = posts.map(post =>{
         return(
-            <>
+            <div className='post'>
             <h4>{post.title}</h4>
             <p>{post.description}</p>
-            </>
+            </div>
         )
     });
 

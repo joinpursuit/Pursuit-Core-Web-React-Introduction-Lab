@@ -1,4 +1,5 @@
 import React from 'react';
+import './MasterUser.css'
 
 class Master extends React.Component {
     render(){
@@ -21,7 +22,7 @@ class Master extends React.Component {
         });
 
         return(
-            <div>
+            <div className='masterDiv'>
                 {masterMap}
             </div>
         )

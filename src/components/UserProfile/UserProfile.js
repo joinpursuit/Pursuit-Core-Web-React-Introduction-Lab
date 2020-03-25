@@ -27,17 +27,17 @@ class Users extends React.Component {
 
         let contacts = userArr.map(contact =>{
             return (
-                <>
+                <div className='userProfile'>
                 <h3>{contact.name}</h3>
-                <h2>{contact.title}</h2>
+                <h4>{contact.title}</h4>
                 <p>{contact.description}</p>
-                </>
+                </div>
             )
 
         });
 
         return (
-            <div>
+            <div className='contact'>
             <h4>Contacts</h4>
                 {contacts}
             </div>
