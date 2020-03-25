@@ -1,14 +1,13 @@
 import React from 'react';
 import Post from '../Post/Post';
+import './Posts.css'
 
-const Posts = ({ posts }) => {
-    posts = posts.map(post => {
-        return <Post title={post.title} description = {post.description} key ={post.title}/>
+const Posts = () => {
 
-    })
     return(
-        <div>
-            <h3>{posts}</h3>
+        <div className="parentPost">
+            <h3>Posts</h3>
+            <Post />
         </div>
     )
 }

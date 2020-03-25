@@ -1,22 +1,48 @@
 import React from 'react';
+import './UserProfile.css';
+
 
 class Users extends React.Component {
-    user = {
-        // img:
-        name: "Jordan Walke",
-        title: "React Creator",
-        description: "Lorem Ipsem" 
-        
-
-    }
     render(){
-        return(
+        const userArr = [
+        {
+            name: "Jordan Walker",
+            title: "React Creator",
+            description: "Lorem Ipsem"
+    
+        },
+        {
+            name: "Henry Nunez",
+            title: "Pursuit Student",
+            description: "YERRRRRRR"
+    
+        },
+        {
+            name: "Bruce Wayne",
+            title: "Gotham Crusader",
+            description: "Lorem Ipsem"
+    
+        }
+        ]
+
+        let contacts = userArr.map(contact =>{
+            return (
+                <>
+                <h3>{contact.name}</h3>
+                <h2>{contact.title}</h2>
+                <p>{contact.description}</p>
+                </>
+            )
+
+        });
+
+        return (
             <div>
-            <h3>{this.user.name}</h3>
-            <h4>{this.user.title}</h4>
-            <p>{this.user.description}</p>
+            <h4>Contacts</h4>
+                {contacts}
             </div>
         )
+
     }
 }
 
