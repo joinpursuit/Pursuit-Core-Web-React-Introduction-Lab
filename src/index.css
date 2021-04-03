@@ -9,3 +9,89 @@ body,
   height: 100%;
   width: 100%;
 }
+
+#root {
+  display: grid;
+  grid-template-columns: 2rem 75fr 4rem 25fr 1rem;
+  grid-template-rows: 3rem 2rem 25fr 4rem 75fr 4rem;
+}
+
+#nav-bar {
+  grid-column: 1 / 6;
+  grid-row: 1;
+  background: lightblue;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#nav-bar button {
+  background: white;
+  border: none;
+  margin: 1rem 1rem 1rem 0;
+}
+
+#user-profile {
+  border: 1px solid black;
+  display: flex;
+  align-items: flex-start;
+  grid-column: 2;
+  grid-row: 3;
+}
+
+#user-profile img {
+  height: 65%;
+  margin-right: 1rem;
+}
+
+.profile-contents {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 65%;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+.name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.position {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0.75rem 0;
+}
+
+.lorem {
+  font-size: 0.9rem;
+}
+
+#posts {
+  border: 1px solid black;
+  grid-column: 2;
+  grid-row: 5;
+  text-align: center;
+}
+
+.post {
+  border: 1px solid black;
+  margin: 2rem;
+}
+
+.post-title {
+  font-weight: bold;
+}
+
+#contacts {
+  border: 1px solid black;
+  grid-column: 4;
+  grid-row: 3 / 6;
+  padding: 0 2rem;
+}
+
+.contact-user-card {
+  border: 1px solid black;
+  display: flex;
+  margin-bottom: 1rem;
+}
