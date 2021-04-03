@@ -1,0 +1,19 @@
+/* #root{
+display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+} */
+
+
+.contacts{
+    margin-top: 70px;
+    border: 5px solid black;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-row: 1/4;
+    grid-column: 3/5;
+    overflow-y: scroll;
+    /* height: fit-content; */
+}
