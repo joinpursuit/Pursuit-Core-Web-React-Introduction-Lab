@@ -4,7 +4,7 @@ import Post from "./Post"
 const Posts = () => {
     return (
         <section id="posts">
-            <h2>Posts</h2>
+            <h4>Posts</h4>
             <Post />
             <Post />
             <Post />

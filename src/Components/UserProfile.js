@@ -9,13 +9,15 @@ const userInfo = {
 
 const UserProfile = () => {
     return (
-        <section id="user-profile">
-            <img src={Photo} alt="Profile"></img>
-            <h2>{userInfo.name}</h2>
-            <h4>{userInfo.title}</h4>
-            <p>Lorem Ipsem</p>
-        </section>
-    )
+			<section id="user-profile">
+				<img src={Photo} alt="Profile"></img>
+				<div id="user-info">
+					<h4>{userInfo.name}</h4>
+					<h5>{userInfo.title}</h5>
+					<p>Lorem Ipsem</p>
+				</div>
+			</section>
+		);
 }
 
 export default UserProfile;

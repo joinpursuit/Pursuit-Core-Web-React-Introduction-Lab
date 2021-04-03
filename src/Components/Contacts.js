@@ -4,7 +4,7 @@ import ContactUserCard from "./ContactUserCard";
 const Contacts = () => {
     return (
         <section id="contacts">
-            <h2>Contacts</h2>
+            <h4>Contacts</h4>
             <ContactUserCard />
             <ContactUserCard />
             <ContactUserCard />
