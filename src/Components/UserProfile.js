@@ -12,9 +12,9 @@ const UserProfile = ()=>{
         <section id="user-profile">
             <img src={Photo} alt="profile"></img>
             <div id="user-info">
-            <h4>{userInfo.name}</h4>
-            <h5>{userInfo.title}</h5>
-            <p>{userInfo.description}</p>
+                <h4>{userInfo.name}</h4>
+                <h5>{userInfo.title}</h5>
+                <p>{userInfo.description}</p>
             </div>
         </section>
     );

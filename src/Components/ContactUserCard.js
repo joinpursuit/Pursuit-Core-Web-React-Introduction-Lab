@@ -9,11 +9,13 @@ const userInfo = {
 
 const ContactUserCard = ()=>{
     return (
-    <div>
+    <div className="user-card">
         <img src={Photo} alt="profile"></img>
-        <h4>{userInfo.name}</h4>
-        <h5>{userInfo.title}</h5>
-        <p>{userInfo.description}</p>
+        <div className="user-card-info">
+            <h4>{userInfo.name}</h4>
+            <h5>{userInfo.title}</h5>
+            <p>{userInfo.description}</p>
+        </div>
     </div>
     )
 
