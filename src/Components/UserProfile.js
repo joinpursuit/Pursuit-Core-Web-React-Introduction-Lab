@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/UserProfile.css"
 
 const user = {
     name: "Jordan Walke",
@@ -9,7 +10,7 @@ const user = {
 
 function UserProfile() {
   return (
-    <>
+    <div className="userProfile">
       <img
         src="https://acaweb.org/wp-content/uploads/2018/12/profile-placeholder.png"
         alt="post"
@@ -19,7 +20,7 @@ function UserProfile() {
       <h1>{user.name}</h1>
       <p>{user.title}</p>
       <p>{user.subject}</p>
-    </>
+    </div>
   );
 }
 
