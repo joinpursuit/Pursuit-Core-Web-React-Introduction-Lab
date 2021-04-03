@@ -1,6 +1,6 @@
 .Main-App{
     display: grid;
-    grid-template-rows: 0.25fr 0.75fr 1fr;
+    grid-template-rows: 5% 35% 60%;
     grid-template-columns: 60% 40%;
     grid-template-areas: 
     "Nav Nav"

@@ -5,11 +5,12 @@
     border: solid black 1px;
     /* width: 20%; */
     grid-area: Contact;
-
+    margin: 20px;
 }
 
 .Contacts main{
     border:solid black 1px;
     display: flex;
-    margin-bottom: 20px;
+    margin: 20px;
+    width: 80%
 }
