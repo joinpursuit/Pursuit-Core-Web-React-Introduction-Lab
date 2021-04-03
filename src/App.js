@@ -6,12 +6,15 @@ import Contacts from "./Components/Contacts.js";
 import "./index.css";
 
 
-export default function App() {
+function App() {
   return (
-    <>
+    <div>
+      <NavBar />
       <UserProfile />
       <Posts />
       <Contacts />
-    </>
+    </div>
   );
 }
+
+export default App;
