@@ -3,7 +3,7 @@
     border: solid grey 1px;
     margin:20px;
     width: 60%;
-    height: 9%;
+    /* height: 9%; */
 }
 .Avatar > img{
     height: auto;
@@ -14,4 +14,8 @@
 .User-Info{
     text-align: center;
     padding:5px;
+}
+
+p {
+    color: gray;
 }
