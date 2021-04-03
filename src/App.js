@@ -1,7 +1,19 @@
 import React from "react";
+import UserProfile from "./Components/UserProfile";
+import Contacts from "./Components/Contacts";
 
 import "./index.css";
 
-export default function App() {
-  return <p>Hello, world!</p>;
+function App() {
+  return (
+    <div className="profilePage">
+      <div className="profilePosts">
+        <UserProfile />
+        {/* <Posts /> */}
+      </div>
+      <Contacts />
+    </div>
+  );
 }
+
+export default App;
