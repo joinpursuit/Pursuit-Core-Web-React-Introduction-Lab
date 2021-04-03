@@ -1,2 +1,12 @@
 import React from "react";
-// import "./index.css";
+
+const Post = () => {
+    return (
+        <>
+        <h4>Title</h4>
+        <p>Lorem Ipsem</p>
+        </>
+    )
+}
+
+export default Post;

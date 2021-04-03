@@ -12,9 +12,9 @@ const UserProfile = () => {
         <img src={userImage.imgLink} width="100" height="100"></img>
       </div>
       <div id="content">
-        <h4>Jordan Walke</h4>
-        <h6>React Creator</h6>
-        <p> Lorem Ipsum</p>
+        <h3>Jordan Walke</h3>
+        <h5>React Creator</h5>
+        <p>Lorem Ipsem</p>
       </div>
     </section>
   );
