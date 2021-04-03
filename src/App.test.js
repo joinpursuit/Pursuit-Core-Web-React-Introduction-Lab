@@ -11,11 +11,6 @@ describe("App", () => {
   it("renders NavBar, UserProfile, Posts, and Contacts", () => {
     const wrapper = shallow(<App />);
 
-    expect(wrapper.children().map((child) => child.type())).toEqual([
-      NavBar,
-      UserProfile,
-      Posts,
-      Contacts,
-    ]);
+    expect(wrapper.children().map((child) => child.type())).toEqual([NavBar, UserProfile, Posts, Contacts]);
   });
 });
