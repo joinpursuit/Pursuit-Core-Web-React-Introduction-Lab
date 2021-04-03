@@ -1,7 +1,7 @@
 import { shallow } from "enzyme";
 import React from "react";
 
-import { ContactUserCard } from "./ContactUserCard";
+import ContactUserCard from "./ContactUserCard";
 
 describe("ContactUserCard", () => {
   it("renders ContactUserCard text", () => {

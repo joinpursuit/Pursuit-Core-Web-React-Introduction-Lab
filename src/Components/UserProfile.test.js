@@ -1,7 +1,7 @@
 import { shallow } from "enzyme";
 import React from "react";
 
-import { UserProfile } from "./UserProfile";
+import UserProfile from "./UserProfile";
 
 describe("UserProfile", () => {
   it("renders profile text", () => {
