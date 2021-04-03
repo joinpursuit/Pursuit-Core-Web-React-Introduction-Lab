@@ -5,8 +5,8 @@
 - Fork this repo
 - Clone the forked repository
 - `cd` to the directory where you cloned it
-- `npm install` to install dependencies
-- `npm run test` to run tests
+- ``npm install` to install dependencies
+- `npm run test` to run tests`
 
 > If you receive an error trying to run the tests, you can try [installing watchman](https://docs.reactioncommerce.com/docs/jest-tips)
 
@@ -58,5 +58,5 @@ Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+You will also see any lint errors in the console. 2
 
