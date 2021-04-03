@@ -1,13 +1,12 @@
 import React from "react";
 
 const Post = () => {
-    return (
-        <>
-        <p>Title</p>
-        <p>Lorem Ipsem</p>
-        </>
+  return (
+    <div className="post">
+      <h3>Title</h3>
+      <p>Lorem Ipsem</p>
+    </div>
+  );
+};
 
-    )
-}
-
-export default Post 
+export default Post;

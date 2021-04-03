@@ -3,7 +3,7 @@ import  ContactUserCard  from "./ContactUserCard";
 
 export function Contacts() {
   return (
-    <div id="contacts">
+    <div className="contacts">
       <h2>Contacts</h2>
       <ContactUserCard />
       <ContactUserCard />
