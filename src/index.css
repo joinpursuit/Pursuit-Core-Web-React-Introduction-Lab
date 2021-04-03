@@ -3,7 +3,7 @@ body {
   margin: 0;
 }
 
-.NavBar {
+.Nav-Bar {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
@@ -11,6 +11,20 @@ body {
   height: 60px;
 }
 
+.user-profile {
+  border: 3px solid black;
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.user-profile > #content {
+  padding: 15px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
 html,
 body,
 #root {
