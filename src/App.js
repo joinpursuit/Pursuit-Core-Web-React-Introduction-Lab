@@ -7,7 +7,10 @@ import "./index.css";
 
 export default function App() {
   return (
+    <>
   <UserProfile />
-    );
+  <Posts />
+  </>
+    )
 }
 

@@ -1,12 +1,6 @@
-import React from 'react';
+import React from "react";
 
-// const user = {
-//     name: "Jordan Walke",
-//     title: "React Creator",
-//     subject: "Lorem Ipsem"
-//  }
-
-function UserProfile (user) {
+function UserProfile () {
     return (
         <>
         <img src="https://acaweb.org/wp-content/uploads/2018/12/profile-placeholder.png" alt="post" width="200" height="200"></img>
