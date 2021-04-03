@@ -5,17 +5,20 @@ import Posts from "./Components/Posts";
 import NavBar from "./Components/NavBar";
 
 import "./index.css";
-// import "./Style.app.css"
 
 function App() {
   return (
     <div className="profilePage">
-      <NavBar />
-      <div className="profilePosts">
-        <UserProfile />
-        <Posts />
+      <div className="pageNavigation">
+        <NavBar />
       </div>
-      <Contacts />
+        <div className="profilePosts">
+          <UserProfile />
+          <Posts />
+        </div>
+        <div className="userContacts">
+        <Contacts />
+        </div>
     </div>
   );
 }

@@ -9,3 +9,28 @@ body,
   height: 100%;
   width: 100%;
 }
+
+.profilePage {
+  display: grid;
+  grid-template-columns: 2;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pageNavigation, .profilePosts, .userContacts {
+  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+} 
+
+.pageNavigation {
+  border: 1px solid blue;
+}
+
+.profilePosts {
+  border: 1px solid orange;
+}
+
+.userContacts {
+  border: 1px solid purple;
+}

@@ -1,12 +1,10 @@
 import React from "react";
 
-const navInfo = {
-    button1: "What is pursuit?"
-}
+import '../Style/navBar.css';
 
 const NavBar = () => {
   return (
-    <div>
+    <div >
       <button type="text" name="What is Pursuit">What is Pursuit?</button>
       <button type="text" name="Create Account">Create Account</button>
       <button type="text" name="Sign in">Sign in</button>

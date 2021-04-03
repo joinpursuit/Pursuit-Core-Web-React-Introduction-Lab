@@ -1,0 +1,16 @@
+div {
+  display: grid;
+  grid-template-columns: 2;
+  display: flex;
+  flex-wrap: wrap;
+  grid-row: 1;
+  grid-column: 1 / -1;
+  display: flex;
+  /* border: chartreuse; */
+}
+
+button {
+    justify-items: flex-end;
+    align-items: flex-end;
+    /* background-color: red; */
+}
