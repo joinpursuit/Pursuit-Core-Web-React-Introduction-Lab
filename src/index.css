@@ -9,3 +9,60 @@ body,
   height: 100%;
   width: 100%;
 }
+
+img{
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+p{
+  font-size: 12px;
+}
+
+#root{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  grid-gap: 50px;
+}
+
+nav{
+  grid-row: 1/2;
+  grid-column: 1/13;
+  background-color: lightblue;
+  display: flex;
+  justify-content: flex-end;
+}
+nav > button {
+  margin: 10px;
+}
+
+
+#user-profile{
+  grid-column: 1/8;
+  grid-row: 2/5;
+  display: flex;
+}
+#user-info{
+  text-align: center;
+  margin: 10px;
+}
+
+#posts{
+  grid-column: 1/8;
+  grid-row: 5/13;
+  text-align: center;
+}
+.post{
+  border: 1px solid black;
+  margin: 20px;
+}
+
+#contacts{
+  grid-column: 8/13;
+  grid-row: 2/13;
+}
+
+section{
+  border: 1px solid black;
+}
