@@ -1,0 +1,13 @@
+.NavBar {
+    background-color: skyblue;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 10%;
+}
+
+.NavBar button {
+    margin: 4px;
+    height: 25px;
+}
+
