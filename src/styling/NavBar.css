@@ -1,0 +1,12 @@
+.App-header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    height: 50px;
+    background-color: aquamarine;
+}
+
+button{
+    height: 25px;
+}
