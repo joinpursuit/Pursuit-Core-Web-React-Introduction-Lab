@@ -4,8 +4,9 @@
     align-items: center;
     border: 1px solid black;
     margin: 20px;
-    width: 60%;
+    /* width: 60%; */
     padding-bottom: 60px;
+    grid-area: Post;
 }
 
 .Posts div {

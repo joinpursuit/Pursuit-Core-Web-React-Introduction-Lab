@@ -2,8 +2,9 @@
     display: flex;
     border: solid grey 1px;
     margin:20px;
-    width: 60%;
+    /* width: 60%; */
     /* height: 9%; */
+    grid-area: User;
 }
 .Avatar > img{
     height: auto;

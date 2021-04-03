@@ -1,0 +1,15 @@
+.Contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid black 1px;
+    /* width: 20%; */
+    grid-area: Contact;
+
+}
+
+.Contacts main{
+    border:solid black 1px;
+    display: flex;
+    margin-bottom: 20px;
+}

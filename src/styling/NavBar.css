@@ -3,7 +3,8 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    height: 6%;
+    /* height: 6%; */
+    grid-area: Nav;
 }
 
 .NavBar button {
