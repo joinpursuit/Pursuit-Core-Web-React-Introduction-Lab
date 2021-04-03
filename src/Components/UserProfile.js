@@ -9,7 +9,7 @@ const userInfo = {
 
 const UserProfile = () => {
   return (
-    <div>
+    <div className='UserProfile-Div'>
       <img src={userInfo.imageLink} alt='post' width='200' height='200'></img>
       <p>{userInfo.name}</p>
       <p>{userInfo.title}</p>                

@@ -6,9 +6,10 @@ import Contacts from './Components/Contacts';
 import "./index.css";
 
 
+
 export default function App() {
   return (
-    <div>
+    <div className='App-Div'>
     <NavBar />
     <UserProfile />
     <Posts/>

@@ -3,7 +3,7 @@ import ContactUserCard from './ContactUserCard.js';
 
 const Contacts = () => {
   return (
-    <div>
+    <div className='Contacts-Div'>
       <h2>Contacts</h2>
       <ContactUserCard />
       <ContactUserCard />

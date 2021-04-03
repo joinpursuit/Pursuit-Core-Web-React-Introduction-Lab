@@ -7,7 +7,7 @@ const postInfo = {
 
 const Post = () => {
   return (
-    <div>
+    <div >
       <p>{postInfo.title}</p>               
       <p>{postInfo.description}</p>
     </div>

@@ -9,3 +9,49 @@ body,
   height: 100%;
   width: 100%;
 }
+
+.App-Div {
+  display: grid;
+  
+}
+
+.NavBar-Div {
+  background-color: lightblue;
+  display: flex;
+  height: 20px;
+  width: 98%;
+  padding: 1%;
+  justify-content: flex-end;
+
+}
+
+.NavBar-Div > button {
+  padding: 3px;
+}
+
+.Contacts-Div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2px;
+  margin: 1%;
+  border: 2px solid;
+  width: 35%;
+
+}
+
+.UserProfile-Div {
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  margin: 2%;
+  border: 2px solid;
+  height: 100%;
+}
+
+.Post-Div {
+  display: flex;
+  margin: 2%;
+  border: 2px solid;
+  align-items: center;
+}
