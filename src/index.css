@@ -3,6 +3,14 @@ body {
   margin: 0;
 }
 
+.NavBar {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  background-color: cornflowerblue;
+  height: 60px;
+}
+
 html,
 body,
 #root {
