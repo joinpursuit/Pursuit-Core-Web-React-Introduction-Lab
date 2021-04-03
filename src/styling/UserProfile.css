@@ -1,0 +1,17 @@
+.UserProfile{
+    display: flex;
+    border: solid grey 1px;
+    margin:20px;
+    width: 60%;
+    height: 9%;
+}
+.Avatar > img{
+    height: auto;
+    width: 100%;
+    max-width:130px ;
+  
+}
+.User-Info{
+    text-align: center;
+    padding:5px;
+}
