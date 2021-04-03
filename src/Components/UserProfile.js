@@ -1,6 +1,6 @@
 import React from "react";
 
-export function UserProfile() {
+export  default function UserProfile() {
   return (
     <div id="user-profile">
       <img alt="" src="/profile.png" />

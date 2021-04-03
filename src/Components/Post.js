@@ -1,6 +1,6 @@
 import React from "react";
 
-export function Post() {
+export default function Post() {
   return (
     <div className="post">
       <p className="post-title">Title</p>

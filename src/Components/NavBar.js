@@ -1,6 +1,6 @@
 import React from "react"
 
-export function NavBar() {
+export default function NavBar() {
     return (
         <header id="nav-bar">
             <button>What is Pursuit?</button>

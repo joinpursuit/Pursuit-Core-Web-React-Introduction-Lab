@@ -1,7 +1,7 @@
 import React from "react";
 import { ContactUserCard } from "./ContactUserCard";
 
-export function Contacts() {
+export default function Contacts() {
   return (
     <div id="contacts">
       <h2>Contacts</h2>
