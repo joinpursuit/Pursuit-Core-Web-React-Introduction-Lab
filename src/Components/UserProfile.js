@@ -1,16 +1,26 @@
 import React from "react";
 
-function UserProfile () {
-    return (
-        <>
-        <img src="https://acaweb.org/wp-content/uploads/2018/12/profile-placeholder.png" alt="post" width="200" height="200"></img>
-        <h1>Jordan Walke</h1>
-        <p>React Creator</p>
-        <p>Lorem Ipsem</p>
-        </>
-    )
+const user = {
+    name: "Jordan Walke",
+    title: "React Creator",
+    subject: "Lorem Ipsem",
+  };
+  
+
+function UserProfile() {
+  return (
+    <>
+      <img
+        src="https://acaweb.org/wp-content/uploads/2018/12/profile-placeholder.png"
+        alt="post"
+        width="200"
+        height="200"
+      />
+      <h1>{user.name}</h1>
+      <p>{user.title}</p>
+      <p>{user.subject}</p>
+    </>
+  );
 }
-
-
 
 export default UserProfile;
