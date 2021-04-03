@@ -11,6 +11,7 @@ export default function App() {
     <>
       <UserProfile />
       <Posts />
+      <Contacts />
     </>
   );
 }
