@@ -1,8 +1,8 @@
 import React from "react";
-import NavBar from "./Components/NavBar.js";
-import UserProfile from "./Components/UserProfile.js";
-import Posts from "./Components/Posts.js";
-import Contacts from "./Components/Contacts.js";
+import NavBar from "./Components/NavBar";
+import UserProfile from "./Components/UserProfile";
+import Posts from "./Components/Posts";
+import Contacts from "./Components/Contacts";
 import "./index.css";
 import "./styles/app.css"
 
