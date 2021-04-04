@@ -1,7 +1,9 @@
 .contacts {
   grid-column: 2/3;
   grid-row: 2/4;
+  display: flex;
+  flex-direction: column;
   border: 1px solid black;
   text-align: center;
-  height: 105%;
+  height: 91.3vh;
 }

@@ -1,14 +1,27 @@
 .contactUserCard {
   display: flex;
   border: 1px solid black;
-  margin: 2%;
+  margin: 3%;
+  height: 16.3vh;
 }
 
 .contactUserCardText {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  height: 90%;
+  
   padding-left: 1%;
   margin: 0%;
+}
+
+.contactUserCardText h3 {
+margin-top: 10px;
+}
+
+.contactUserCardText h4 {
+margin-top: 0px;
+}
+
+.contactUserCardText p {
+margin-top: 0px;
 }

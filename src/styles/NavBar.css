@@ -4,8 +4,9 @@
   background-color: skyblue;
   display: flex;
   justify-content: flex-end;
+  width:89.1vw;
 }
 
 button {
-  margin: 10px;
+  margin: 15px;
 }

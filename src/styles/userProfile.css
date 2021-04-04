@@ -3,6 +3,7 @@
   grid-row: 2/3;
   border: black solid 1px;
   display: flex;
+  height: 25vh;
 }
 
 .userProfileText {
@@ -11,4 +12,16 @@
   align-items: center;
   padding: 1%;
   margin-bottom: 0%;
+}
+
+.userProfileText h1{
+margin-top: 0px;
+}
+
+.userProfileText h3{
+margin-top: 0px;
+}
+
+.userProfileText p {
+margin-top: 0px;
 }
