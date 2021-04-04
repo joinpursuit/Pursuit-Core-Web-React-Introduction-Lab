@@ -1,0 +1,12 @@
+.posts {
+  grid-row: 3/4;
+  grid-column: 1/2;
+  border: 1px solid black;
+  text-align: center;
+  height: 107%;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}

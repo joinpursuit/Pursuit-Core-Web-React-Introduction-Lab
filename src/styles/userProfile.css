@@ -1,5 +1,14 @@
 .userProfile {
-    grid-column: 1/8;
-    grid-row: 4/9;
-    border: black solid 1px;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  border: black solid 1px;
+  display: flex;
+}
+
+.userProfileText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1%;
+  margin-bottom: 0%;
 }

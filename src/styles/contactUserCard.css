@@ -1,0 +1,14 @@
+.contactUserCard {
+  display: flex;
+  border: 1px solid black;
+  margin: 2%;
+}
+
+.contactUserCardText {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 90%;
+  padding-left: 1%;
+  margin: 0%;
+}

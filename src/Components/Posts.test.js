@@ -2,6 +2,7 @@ import { shallow } from "enzyme";
 import React from "react";
 import Post from "./Post";
 
+
 import Posts from "./Posts";
 
 describe("Posts", () => {

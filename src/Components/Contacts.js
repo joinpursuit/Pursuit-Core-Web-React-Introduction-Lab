@@ -1,26 +1,19 @@
 import React from "react";
 import ContactUserCard from "./ContactUserCard.js";
+import "../styles/contacts.css";
 
 const Contacts = () => {
   return (
-    <>
+    <div className="contacts">
       <h2>Contacts</h2>
-      <ul>
-        <li>
-          <ContactUserCard />
-        </li>
-        <li>
-          <ContactUserCard />
-        </li>
-        <li>
-          <ContactUserCard />
-        </li>
-        <li>
-          <ContactUserCard />
-        </li>
-      </ul>
-    </>
+      <div>
+        <ContactUserCard />
+        <ContactUserCard />
+        <ContactUserCard />
+        <ContactUserCard />
+      </div>
+    </div>
   );
 };
 
-export default Contacts
+export default Contacts;
