@@ -8,12 +8,12 @@ import "./index.css";
 
 function App() {
 return(
-  <div>
+  <>
     <NavBar />
     <UserProfile />
     <Posts />
     <Contacts />
-  </div>
+  </>
 )
 }
 

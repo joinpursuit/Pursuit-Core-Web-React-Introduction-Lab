@@ -1,0 +1,16 @@
+.nav-bar {
+  background-color: aquamarine;
+  height: 50px;
+  width: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  grid-row: 1;
+  grid-column: 1/5;
+  margin-bottom: 50px;
+}
+button {
+  height: 30px;
+  margin-right: 20px;
+}

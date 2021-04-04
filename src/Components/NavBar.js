@@ -1,4 +1,5 @@
 import React from  'react'
+import "../styles/navBar.css"
 
 const navInfo = {
     pursuit: "What is Pursuit?",

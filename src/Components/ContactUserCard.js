@@ -10,7 +10,7 @@ const contactInfo = {
 const ContactUserCard = () => {
     return (
         <div className="user-card">
-            <img src={contactInfo.imageLink}></img>
+            <img src={contactInfo.imageLink} width="200px" height="200px"></img>
             <h3>{contactInfo.name}</h3>
             <p>{contactInfo.title}</p>
             <p>{contactInfo.location}</p>

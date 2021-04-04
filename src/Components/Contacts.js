@@ -1,5 +1,6 @@
 import React from "react";
 import ContactUserCard from "./ContactUserCard";
+import "../styles/contacts.css"
 
 const Contacts = () => {
     return (
