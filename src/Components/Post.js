@@ -1,12 +1,16 @@
-import React from "react"
+import React from "react";
 
-const Post = () => {
+class Post extends React.Component {
+  constructor() {
+    super();
+  }
+  render() {
     return (
-        <div>
-            <h1>Title</h1>
-            <p>Lorem Ipsem</p>
-        </div>
-    )
+      <div>
+        <h1>Title</h1>
+        <p>Lorem Ipsem</p>
+      </div>
+    );
+  }
 }
-
-export default Post
+export default Post;

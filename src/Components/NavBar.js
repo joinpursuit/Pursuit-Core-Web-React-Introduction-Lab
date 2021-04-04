@@ -1,14 +1,19 @@
-import React from "react"
-import "../styling/NavBar.css"
+import React from "react";
+import "../styling/NavBar.css";
 
-const NavBar = () => {
+class NavBar extends React.Component {
+  constructor() {
+    super();
+  }
+  render() {
     return (
-    <nav className="NavBar">
+      <nav className="NavBar">
         <button>What is Pursuit?</button>
         <button>Create an account</button>
         <button>Sign in</button>
-    </nav>
-    )
+      </nav>
+    );
+  }
 }
 
-export default NavBar
+export default NavBar;
