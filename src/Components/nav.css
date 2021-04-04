@@ -1,0 +1,12 @@
+.navBar{
+    background-color: rgb(109, 222, 222);
+    display: flex;
+    justify-content: flex-end;
+    height: 5vw;
+}
+.navBar button{
+   margin-right: 2vw;
+   height: 2vw;
+   margin-top: 1.5vw;
+   cursor: pointer;
+}
