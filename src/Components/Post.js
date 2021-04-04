@@ -5,13 +5,24 @@ const postInfo = {
   description: "Lorem Ipsem"
 };
 
-const Post = () => {
-  return (
-    <div className='Post'>
-      <p>{postInfo.title}</p>                
-      <p>{postInfo.description}</p>
-    </div>
-  )        
+class Post extends React.Component {
+  render() {
+    return (
+      <div className='Post'>
+        <p>{postInfo.title}</p>                
+        <p>{postInfo.description}</p>
+      </div>
+    )  
+  }
 }
+
+// const Post = () => {
+//   return (
+//     <div className='Post'>
+//       <p>{postInfo.title}</p>                
+//       <p>{postInfo.description}</p>
+//     </div>
+//   )        
+// }
 
 export default Post;
