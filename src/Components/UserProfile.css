@@ -1,0 +1,12 @@
+.UserProfile {
+  border: 1px solid black;
+  margin: 25px;
+  grid-column: 1/8;
+  grid-row: 2/5;
+  display: flex;
+}
+
+.User {
+    padding: 5px;
+  /* text-align: center; */
+}
