@@ -1,0 +1,19 @@
+.nav{
+    display: flex;
+    list-style-type: none;
+    /* border: purple 2px solid; */
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+li{
+    display: flex;
+    /* float: left; */
+    margin: 1px 1px 1px 1px;
+    width: fit-content;
+    
+}
