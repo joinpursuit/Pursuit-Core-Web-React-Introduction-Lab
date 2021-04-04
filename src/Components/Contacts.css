@@ -1,0 +1,7 @@
+.Contacts {
+    border: 1px solid black;
+    margin: 25px;
+    text-align: center;
+    grid-column: 8/12;
+    grid-row: 2/11;
+}
