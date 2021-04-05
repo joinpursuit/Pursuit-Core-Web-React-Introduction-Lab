@@ -1,0 +1,6 @@
+.userProfile {
+    grid-column: 1/8;
+    grid-row: 4/9;
+    border: black solid 1px;
+}
+
