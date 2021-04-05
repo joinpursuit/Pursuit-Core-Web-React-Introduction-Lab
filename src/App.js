@@ -6,13 +6,26 @@ import Contacts from "./Components/Contacts";
 
 import "./index.css";
 
-// export default function App() {
-//   return <p>Hello, world!</p>;
 
+// export default function App() {
+//   return (
+//       <div className="App-Div">
+//         <NavBar />
+//         <UserProfile />
+//         <Posts />
+//         <Contacts />
+//       </div>
+//   );
 // }
 
-export default function App() {
-  return (
+
+// Refactoring above code
+class App extends React.Component {
+  constructor(){
+    super()
+  }
+  render() {
+    return (
       <div className="App-Div">
         <NavBar />
         <UserProfile />
@@ -20,6 +33,9 @@ export default function App() {
         <Contacts />
       </div>
   );
+  }
 }
 
-// export default App
+
+
+export default App;
