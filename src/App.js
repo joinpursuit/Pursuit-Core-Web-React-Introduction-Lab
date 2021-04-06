@@ -4,7 +4,7 @@ import Profile from "./Components/UserProfile";
 import Posts from "./Components/Posts";
 import Contacts from "./Components/Contacts";
 import "./index.css";
-import "./App.css"
+import "./App.css";
 
 const App = () => {
   return (

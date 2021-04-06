@@ -1,4 +1,5 @@
 import React from 'react';
+import "./UserProfile.css";
 
 let user = {
     name: "Jordan Walke",

@@ -3,7 +3,6 @@
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 40px 1fr 2fr;
     grid-gap: 5px;
-    /* grid-template-rows: 30% 70% ; */
 }
 
 .heading{
@@ -36,66 +35,4 @@
     font-size: 12px;
 }
 
-#nav{
-    /* border: 3px solid black; */
-    grid-column: 1 /span 2;
-    background-color: lightblue;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-  
-}
 
-#nav button {
-    margin-right: 10px;
-}
-
-#profile{
-    border: 1px solid black;
-    margin: auto;
-    margin-top: 20px;
-    width: 90%;
-    display: grid;
-    grid-template-columns: 160px 1fr;
-}
-
-/* #profile img{
-    float: left;
-    margin-right: 10px;
-} */
-
-#posts{
-    border: 1px solid black;
-    margin: auto;
-    margin-top: 20px;
-    width: 90%;
-    text-align: center;
-}
-
-#posts div{
-    border: 1px solid black;
-    width: 90%;
-    margin: auto;
-    margin-bottom: 20px;
-}
-#contacts{
-    border: 1px solid black;
-    grid-column: 2;
-    grid-row: 2/4;
-    margin: auto;
-    margin-top: 20px;
-    width: 90%;
-    text-align: center;
-}
-
-#contacts div{
-    border: 1px solid black;
-    width: 90%;
-    margin: auto;
-    margin-bottom: 20px;
-}
-
-#contacts img{
-    float: left;
-
-}

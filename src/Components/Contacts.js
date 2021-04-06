@@ -1,5 +1,6 @@
 import React from 'react';
-import UserCard from "./ContactUserCard"
+import UserCard from "./ContactUserCard";
+import "./Contacts.css";
 
 function Contacts () {
     return (
