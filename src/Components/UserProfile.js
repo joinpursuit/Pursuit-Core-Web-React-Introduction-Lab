@@ -1,12 +1,18 @@
 import React from 'react'
 
+const userInfo = {
+    name: "Jordan Walke",
+    jobTitle: "React Creator",
+    description: "Lorem Ipsem",
+}
+
 const userProfile = () => {
     
     return (
         <div>
-            <h1>Jordan Walke</h1>
-            <h2>React Creator</h2>
-            <p>Lorem Ipsem</p>
+            <h1>{userInfo.name}</h1>
+            <h2>{userInfo.jobTitle}</h2>
+            <p>{userInfo.description}</p>
         </div>
     )
     
