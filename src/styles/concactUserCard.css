@@ -1,0 +1,10 @@
+.contactUserCard{
+    display: flex;
+    flex-direction: row;
+    border: solid 5px black;
+    margin: 5%;
+}
+
+img{
+    width: 50%;
+}

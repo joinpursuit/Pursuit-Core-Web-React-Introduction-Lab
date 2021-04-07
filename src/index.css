@@ -9,3 +9,37 @@ body,
   height: 100%;
   width: 100%;
 }
+.App{
+  display: flex;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 7% repeat(4, 1fr);
+  
+} 
+ 
+
+
+
+.navBar{
+  grid-column: 1/3;
+  grid-row: 1/2;
+}
+
+.userProfile{
+  grid-column: 1/2;
+  grid-row: 2/3 ;
+  margin: 5%;
+} 
+
+.posts{
+  grid-column: 1/2;
+  grid-row: 3/6;
+  margin: 5%;
+}
+
+.contacts{
+  grid-column: 2/3;
+  grid-row: 2/6;
+  margin: 5%;
+}
+
