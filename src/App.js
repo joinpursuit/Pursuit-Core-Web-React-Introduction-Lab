@@ -4,6 +4,7 @@ import UserProfile from  "./Components/UserProfile"
 import Posts from "./Components/Posts"
 import Contacts from "./Components/Contacts"
 import "./index.css"
+import './styles/App.css'
 
 
 function App(){

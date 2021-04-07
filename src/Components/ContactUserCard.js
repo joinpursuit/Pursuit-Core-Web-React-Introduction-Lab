@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/contactUserCard.css"
+import "./ContactUserCard.css"
 const ContactUserCard = () =>{
     return (
         <div className="contactUserCard">

@@ -1,3 +1,6 @@
 .contacts{
-    border: solid 5px black;
+    border: 3px solid black;
+}
+.contacts>h1{
+    padding: px;
 }
