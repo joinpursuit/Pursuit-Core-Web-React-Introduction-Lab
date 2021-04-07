@@ -1,0 +1,14 @@
+.nav{
+    border: 1px solid black;
+    width: 150%;
+    height: 60px;
+    background-color: aquamarine;
+    text-align: end;
+   
+    
+}
+.nav>button{
+    margin-right: 5px;
+    font-size: 15px;
+    
+}
