@@ -1,11 +1,12 @@
 import React from "react";
 import ContactUserCard from "./ContactUserCard.js";
+import "../styles/contacts.css"
 
 const Contacts = () => {
   return (
-    <>
+    <section className="contacts">
       <h2>Contacts</h2>
-      <ul>
+      <ul className="contact">
         <li>
           <ContactUserCard />
         </li>
@@ -19,7 +20,7 @@ const Contacts = () => {
           <ContactUserCard />
         </li>
       </ul>
-    </>
+    </section>
   );
 };
 

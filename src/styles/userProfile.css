@@ -1,6 +1,14 @@
 .userProfile {
-    grid-column: 1/8;
-    grid-row: 4/9;
+    background-color: cyan;
+    grid-column: 1/9;
+    grid-row: 2/6;
     border: black solid 1px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.userInfo {
+    text-align: center;
+    padding-left: 2%;
 }
 

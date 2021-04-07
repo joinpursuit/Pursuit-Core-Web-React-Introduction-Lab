@@ -1,0 +1,7 @@
+.posts {
+    background-color: coral;
+    grid-column: 1/9;
+    grid-row: 6/13;
+    border: black solid 1px;
+    text-align: center;
+}
