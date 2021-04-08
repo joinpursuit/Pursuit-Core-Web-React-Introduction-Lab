@@ -2,7 +2,7 @@ import React from "react";
 import "./index.css";
 import NavBar from "./Components/NavBar"
 import UserProfile from "./Components/UserProfile.js"
-
+import Posts from "./Components/Posts"
 
 
 const App = () => {
@@ -10,6 +10,7 @@ const App = () => {
     <div>
       <NavBar />
       <UserProfile />
+      <Posts />
     </div>
   )
 
