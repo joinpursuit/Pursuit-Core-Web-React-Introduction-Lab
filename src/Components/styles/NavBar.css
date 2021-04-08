@@ -1,0 +1,15 @@
+
+
+.navBar {
+    display: flex;
+    justify-content: flex-end;
+    background-color: skyblue;
+    height: 40px;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.NavButtons button{
+    margin: 5px;
+}
+

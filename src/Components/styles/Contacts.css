@@ -1,0 +1,25 @@
+
+.contacts {
+    border: 2px solid black;
+    grid-column: 2/3;
+    grid-row: 1/-1;
+    margin: 35px;
+}
+
+.contactBox {
+    display: flex;
+    border: 2px solid black;
+    height: 250px;
+    margin: 35px;
+}
+
+.contactBox img {
+    height: 20px
+}
+
+/* .conatctBox  {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+} */
