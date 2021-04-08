@@ -1,6 +1,6 @@
 import React from "react"
 import ContactUserCard from "./ContactUserCard";
-
+import "../App.css"
 
 const Contacts = () => {
     return (

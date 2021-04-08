@@ -1,5 +1,6 @@
 import React from "react";
-import Contacts from "./Contacts"
+import "../App.css"
+
 
 let contact = {
     name: "Jordan Walke",
@@ -10,7 +11,7 @@ let contact = {
 
 function ContactUserCard () {
     return (
-        <div>
+        <div className="Card">
             <h3>{contact.name}</h3>
             <p>{contact.job}</p>
             <p>{contact.lorem}</p>

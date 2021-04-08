@@ -3,12 +3,12 @@ import "./index.css";
 import NavBar from "./Components/NavBar"
 import UserProfile from "./Components/UserProfile.js"
 import Posts from "./Components/Posts"
-import ContactUserCard from "./Components/ContactUserCard"
 import Contacts from "./Components/Contacts";
+import "./App.css"
 
 const App = () => {
   return (
-    <div>
+    <div className="App-Div">
       <NavBar />
       <UserProfile />
       <Posts />
