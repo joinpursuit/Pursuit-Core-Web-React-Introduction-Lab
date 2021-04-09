@@ -1,7 +1,7 @@
 import { shallow } from "enzyme";
 import React from "react";
 
-import NavBar from "./NavBar";
+import NavBar from "./Navbar2";
 
 describe("NavBar", () => {
   test.each([

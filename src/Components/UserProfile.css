@@ -1,0 +1,12 @@
+.userprofile {
+    border: 1px black solid;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    align-items: center;
+    margin: 5px;
+}
+
+.icon {
+    margin: 0px 20px 10px 0px;
+}

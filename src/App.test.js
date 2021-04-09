@@ -3,7 +3,7 @@ import React from "react";
 
 import App from "./App";
 import Contacts from "./Components/Contacts";
-import NavBar from "./Components/NavBar";
+import NavBar from "./Components/Navbar2";
 import Posts from "./Components/Posts";
 import UserProfile from "./Components/UserProfile";
 
