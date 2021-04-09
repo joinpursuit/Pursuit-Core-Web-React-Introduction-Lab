@@ -1,5 +1,5 @@
 import React from "react";
-import NavBar from './Components/Navbar'
+import NavBar from './Components/Navbar2'
 import UserProfile from './Components/UserProfile'
 import Posts from './Components/Posts'
 import Contacts from './Components/Contacts'
