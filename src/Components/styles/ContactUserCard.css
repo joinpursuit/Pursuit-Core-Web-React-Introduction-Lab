@@ -1,0 +1,11 @@
+.contactUserCard > img {
+    height: 245px;
+    width: auto;
+    /* border: 2px solid; */
+}
+
+.contactUserCard {
+    /* border: 2px solid; */
+    align-items: center;
+    text-align: center;
+}

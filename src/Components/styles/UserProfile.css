@@ -1,0 +1,13 @@
+.UserProfile > img {
+  height: 245px;
+  width: auto;
+}
+
+.UserProfile {
+  border: 2px solid;
+  display: flex;
+  margin-top: 2rem;
+  margin-left: 4px;
+
+}
+
