@@ -1,15 +1,18 @@
 import React from "react";
 import icon from './profile-icon.jpeg'
+import './UserProfile.css'
 // import "./index.css";
 
 const UserProfile = () => {
   return (
-    <>
+    <div className="userprofile">
       <img src={icon} className="icon" alt="icon" />
-      <h4>Jordan Walke</h4>
-      <h5>React Creator</h5>
+    <div className="userinfo">
+      <h3>Jordan Walke</h3>
+      <h4>React Creator</h4>
       <p>Lorem Ipsem</p>
-    </>
+      </div>
+    </div>
   );
 };
 

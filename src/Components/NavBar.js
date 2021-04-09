@@ -6,7 +6,7 @@ const NavBar = () => {
     return (
         <>
          
-          <div>
+          <div className="navbar">
               <button>What is Pursuit?</button>
               <button>Create an account</button>
               <button>Sign in</button>

@@ -7,12 +7,14 @@ import Contacts from './Components/Contacts'
 import "./index.css";
 
 const App = () => {
-  return <>
+  return (
+  <div>
   <NavBar />
   <UserProfile />
   <Posts />
   <Contacts />
-  </>
+  </div>
+  )
 }
 
 export default App;

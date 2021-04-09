@@ -1,8 +1,9 @@
-div {
+.navbar {
     list-style-type: none;
     background-color: lightblue;
     display: flex;
     justify-content: flex-end;
+  
 }
 
 button {
