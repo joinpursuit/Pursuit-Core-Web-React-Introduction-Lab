@@ -1,0 +1,14 @@
+.UserProfile {
+   border: 1px solid black;
+   display:flex;
+   align-items: flex-start;
+   grid-column: 2;
+   grid-row: 3;
+ }
+ .profile-info{
+     align-items: center;
+     display:flex;
+    flex-direction: column;
+    height:100%;
+    justify-content: center;
+}

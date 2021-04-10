@@ -5,7 +5,13 @@ body {
 
 html,
 body,
-#root {
+#root{
   height: 100%;
   width: 100%;
+  }
+
+#root {
+  display: grid;
+  grid-template-columns: 2rem 75fr 4rem 25fr 1rem;
+  grid-template-rows: 3rem 2rem 25fr 4rem 75fr 4rem;
 }
