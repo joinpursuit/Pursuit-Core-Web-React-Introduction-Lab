@@ -3,10 +3,10 @@
     margin: 10px;
     border: 1px solid black;
     box-shadow: 0 2px 2px #ccc;
-    width: 700px;
+    width: 950px;
     height: 200px;
     padding: 20px;
-    grid-area: 1/1/1/2;
+    grid-area: 2/1/2/2;
   }
 
   .user-profile>.picture-div{
