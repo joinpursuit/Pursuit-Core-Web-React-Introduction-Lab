@@ -1,0 +1,10 @@
+.Posts{
+    display: grid;
+    justify-content: center;
+    border: 1px solid black;
+    gap: 5px;
+    text-align: center;
+    width: 700px;
+    margin: 10px;
+    padding: 20px;
+}

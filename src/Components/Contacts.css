@@ -1,0 +1,11 @@
+.Contacts{
+    display: grid;
+    grid: 1fr;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    margin: 10px;
+    width: 400px;
+    height: auto;
+    grid-area: 1/2/3/2;
+  }

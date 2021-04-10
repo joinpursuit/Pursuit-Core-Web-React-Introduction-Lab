@@ -1,0 +1,15 @@
+.topbar{
+    width: 100%;
+    margin: 0px auto;
+    height: 50px;
+    background-color: #ADD8E6;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: end;
+    align-content: center;
+    grid-gap: 20px;
+  }
+
+  #signUpDiv{
+      margin-right: 5px;
+  }
