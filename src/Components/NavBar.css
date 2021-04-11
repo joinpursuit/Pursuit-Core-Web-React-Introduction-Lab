@@ -1,0 +1,7 @@
+.nav-bar {
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    background-color: skyblue;
+    padding: 17px 17px 17px 0px;
+}

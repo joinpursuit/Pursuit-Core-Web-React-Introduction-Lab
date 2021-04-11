@@ -9,3 +9,18 @@ body,
   height: 100%;
   width: 100%;
 }
+
+#root {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 55px 1fr 2fr;
+  grid-template-areas: "nvbar nvbar"
+                       "uprfl conts"
+                       "upsts conts";
+  gap: 30px 30px;
+}
+
+#div-nav-bar      { grid-area: nvbar }
+#div-user-profile { grid-area: uprfl }
+#div-posts        { grid-area: upsts }
+#div-contacts     { grid-area: conts }

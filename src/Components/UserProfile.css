@@ -1,0 +1,24 @@
+.user-profile {
+    display: flex;
+    height: 100%;
+    border: 1px solid black;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.user-profile_pic, .user-profile_desc {
+    height: 70%;
+}
+.user-profile_pic > img {
+    height: 100%;
+}
+.user-profile_desc {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    margin: 0px 30px 0px 30px;
+}
+.user-profile_desc > * {
+    margin: 0px;
+    padding: 0px;
+}
