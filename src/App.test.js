@@ -10,7 +10,6 @@ import UserProfile from "./Components/UserProfile";
 describe("App", () => {
   it("renders NavBar, UserProfile, Posts, and Contacts", () => {
     const wrapper = shallow(<App />);
-
     expect(wrapper.find(NavBar).exists()).toBe(true);
     expect(wrapper.find(UserProfile).exists()).toBe(true);
     expect(wrapper.find(Posts).exists()).toBe(true);
