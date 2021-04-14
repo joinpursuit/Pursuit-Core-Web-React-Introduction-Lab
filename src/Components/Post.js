@@ -8,10 +8,10 @@ const PostInfo = {
 
 const Post = () =>{
     return (
-        <>
+        <main>
             <h1>{PostInfo.Title}</h1>
-            <p>{[PostInfo.Description]}</p>
-        </>
+            <p>{PostInfo.Description}</p>
+        </main>
     )
 }
 

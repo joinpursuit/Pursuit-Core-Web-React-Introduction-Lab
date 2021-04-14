@@ -8,11 +8,11 @@ const ContactCard = {
 
 const ContactUserCard = () => {
     return (
-        <section>
+        <aside>
             {ContactCard.Name}
             {ContactCard.Title}
             {ContactCard.Description}
-        </section>
+        </aside>
 
     )
 }
