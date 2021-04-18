@@ -5,6 +5,6 @@ function Postpage() {
     <div className='post1'>
         <p className='heading'>Title</p>
         <p className='context'>Lorem Ipsem</p>
-    </div>
+    </div>)
 }
 export default Postpage
