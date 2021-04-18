@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./index.css";
-import ".App.css";
+import "./App.css";
 import Navbar from "./Components/NavBar";
 import Profile from "./Components/UserProfile";
 import Posts from "./Components/Posts";
