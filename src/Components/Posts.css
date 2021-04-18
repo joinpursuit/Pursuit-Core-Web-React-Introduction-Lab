@@ -1,0 +1,14 @@
+.postPage{
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 20px;
+    width: 90%;
+    text-align: center;
+}
+
+.postPage div{
+    border: 1px solid black;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+} 

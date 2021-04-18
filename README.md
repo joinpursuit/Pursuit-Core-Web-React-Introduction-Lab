@@ -36,7 +36,7 @@ Create a file per component in a `src/Components/` folder, like `src/Components/
 ![components tree](./component_tree.png)
 
 * Visualized as a list
-
+k
 ![components list](./components.png)
 
 
