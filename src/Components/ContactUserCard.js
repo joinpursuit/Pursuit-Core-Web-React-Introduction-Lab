@@ -1,4 +1,4 @@
-import react from 'react'
+import React from 'react'
 import './Contacts.css'
 let person = {
     name: "Jordan Walke",

@@ -1,6 +1,6 @@
-import react from 'react'
-import './Contacts.css'
-import UserCard from './ContactUserCard'
+import React from 'react';
+import './Contacts.css';
+import UserCard from './ContactUserCard';
 
 function Contacts() {
     return (
