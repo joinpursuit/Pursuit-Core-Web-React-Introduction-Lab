@@ -3,6 +3,53 @@ body {
   margin: 0;
 }
 
+#root {
+  display: grid;
+  grid-template-areas: 
+  "nav nav nav"
+  "profile profile contacts"
+  "posts posts contacts"
+  "posts posts contacts";
+
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 1fr 1fr 1fr;
+}
+
+.nav {
+  grid-area: nav;
+
+}
+
+.userProfile{
+  grid-area: profile;
+  border: 1px solid black;
+}
+
+.posts{
+  grid-area: posts;
+  border: 1px solid black;
+}
+
+.contacts{
+  grid-area: contacts;
+  border: 1px solid black;
+  justify-content: flex-end;
+}
+
+.userCard{
+  border: 1px solid black;
+  height: 100px;
+  width: 300px;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}
+
+
+
+
 html,
 body,
 #root {
